@@ -1,0 +1,24 @@
+model name "test";
+
+add material # 1 type VonMises 
+	mass_density = 2E3*kg/m^3 
+	elastic_modulus = 2E7 * Pa 
+	poisson_ratio=0.25 
+	von_mises_radius = 5E4*Pa
+	kinematic_hardening_rate = 2E6*Pa 
+	isotropic_hardening_rate = 0.0*Pa ;
+
+define NDMaterial constitutive integration algorithm Backward_Euler 
+	yield_function_relative_tolerance = 1E-2   
+	stress_relative_tolerance = 1E-3    
+	maximum_iterations = 30;
+
+simulate constitutive testing strain control uniaxial loading use material # 1
+	confinement_strain = 0.001 
+	strain_increment_size = 0.0001 
+	maximum_strain = 0.01
+	number_of_increment = 499;
+
+bye;
+
+

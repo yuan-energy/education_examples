@@ -1,30 +1,21 @@
 \BOOKMARK [1][-]{section.1}{Chapter Summary and Highlights}{}% 1
 \BOOKMARK [1][-]{section.2}{Elastic Solid Constitutive Examples}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{Linear Elastic Constitutive Examples}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Nonlinear Elastic Constitutive Examples}{section.2}% 4
-\BOOKMARK [1][-]{section.3}{Elastic Plastic Solid Constitutive Examples}{}% 5
-\BOOKMARK [2][-]{subsection.3.1}{Elastic Perfectly Plastic Constitutive Examples}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.2}{Elastic Plastic, Isotropic Hardening, Constitutive Examples}{section.3}% 7
-\BOOKMARK [1][-]{section.4}{Elastic Single Solid Finite Finite Element Examples}{}% 8
-\BOOKMARK [2][-]{subsection.4.1}{Linear Elastic, Solid Examples}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.2}{Nonlinear Elastic Pure Shear Solid Examples}{section.4}% 10
+\BOOKMARK [1][-]{section.3}{Elastic Plastic Solid Constitutive Examples}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Elastic Perfectly Plastic Constitutive Examples}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Elastic Plastic, Isotropic Hardening, Constitutive Examples}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.3}{Elastic Plastic, Kinematic Hardening, Constitutive Examples}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.4}{Elastic Plastic, Multiple Yield Surface, von-Mises, Constitutive Examples}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Elastic Single Solid Finite Finite Element Examples}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Linear Elastic, Solid Examples}{section.4}% 10
 \BOOKMARK [1][-]{section.5}{Elastic-Plastic Single Solid Finite Element Examples}{}% 11
-\BOOKMARK [2][-]{subsection.5.1}{Elastic Perfectly Plastic, Monotonic Loading, Pure Shear Solid Examples}{section.5}% 12
-\BOOKMARK [3][-]{subsubsection.5.1.1}{von Mises Yield Function, von Mises Plastic Potential Function}{subsection.5.1}% 13
-\BOOKMARK [3][-]{subsubsection.5.1.2}{von Mises Yield Function, Drucker Prager Plastic Potential Function}{subsection.5.1}% 14
-\BOOKMARK [3][-]{subsubsection.5.1.3}{Drucker Prager Yield Function, von Mises Plastic Potential Function}{subsection.5.1}% 15
-\BOOKMARK [3][-]{subsubsection.5.1.4}{Drucker Prager Yield Function, Drucker Prager Plastic Potential Function}{subsection.5.1}% 16
-\BOOKMARK [2][-]{subsection.5.2}{Elastic Perfectly Plastic, Monotonic Loading, Triaxial Solid Examples}{section.5}% 17
-\BOOKMARK [3][-]{subsubsection.5.2.1}{von Mises Yield Function, von Mises Plastic Potential Function}{subsection.5.2}% 18
-\BOOKMARK [3][-]{subsubsection.5.2.2}{von Mises Yield Function, Drucker Prager Plastic Potential Function}{subsection.5.2}% 19
-\BOOKMARK [3][-]{subsubsection.5.2.3}{Drucker Prager Yield Function, von Mises Plastic Potential Function}{subsection.5.2}% 20
-\BOOKMARK [3][-]{subsubsection.5.2.4}{Drucker Prager Yield Function, Drucker Prager Plastic Potential Function}{subsection.5.2}% 21
-\BOOKMARK [2][-]{subsection.5.3}{Elastic Plastic, Isotropic Hardening, Pure Shear Solid Examples}{section.5}% 22
-\BOOKMARK [2][-]{subsection.5.4}{Elastic Plastic, Isotropic Hardening, Triaxial Solid Examples}{section.5}% 23
-\BOOKMARK [2][-]{subsection.5.5}{Elastic Plastic, Cam Clay Model, Various Stress Paths}{section.5}% 24
-\BOOKMARK [2][-]{subsection.5.6}{Elastic Plastic, Kinematic Hardening, Pure Shear Solid Examples}{section.5}% 25
-\BOOKMARK [2][-]{subsection.5.7}{Elastic Plastic, Kinematic Hardening, Triaxial Solid Examples}{section.5}% 26
-\BOOKMARK [2][-]{subsection.5.8}{Elastic Plastic, SaniSand Models, Pure Shear and Triaxial Solid Examples}{section.5}% 27
-\BOOKMARK [1][-]{section.6}{Stiffness Reduction and Damping Curves Modeling}{}% 28
-\BOOKMARK [2][-]{subsection.6.1}{Pisano Material Model}{section.6}% 29
-\BOOKMARK [2][-]{subsection.6.2}{Drucker Prager with Armstrong Frederick Nonlinear Kinematic Hardening Material Model}{section.6}% 30
+\BOOKMARK [2][-]{subsection.5.1}{Elastic Perfectly Plastic, Cyclic Loading, Pure Shear Solid Examples}{section.5}% 12
+\BOOKMARK [3][-]{subsubsection.5.1.1}{von Mises Yield Function, Isotropic Hardening}{subsection.5.1}% 13
+\BOOKMARK [3][-]{subsubsection.5.1.2}{von Mises Yield Function, Kinematic Hardening}{subsection.5.1}% 14
+\BOOKMARK [3][-]{subsubsection.5.1.3}{Drucker Prager Yield Function, von Mises Plastic Potential Function, Perfectly Plastic Hardening Rule}{subsection.5.1}% 15
+\BOOKMARK [3][-]{subsubsection.5.1.4}{Drucker Prager Yield Function, Drucker Prager Plastic Potential Function, Perfectly Plastic Hardening Rule}{subsection.5.1}% 16
+\BOOKMARK [2][-]{subsection.5.2}{Elastic Plastic, Cam Clay Model, Various Stress Paths \(To Be Added\)}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.3}{Elastic Plastic, SaniSand Models, Pure Shear Solid Examples \(To Be Added\)}{section.5}% 18
+\BOOKMARK [1][-]{section.6}{Stiffness Reduction and Damping Curves Modeling}{}% 19
+\BOOKMARK [2][-]{subsection.6.1}{Pisano Material Model \(To Be Added\)}{section.6}% 20
+\BOOKMARK [2][-]{subsection.6.2}{Drucker Prager with Armstrong Frederick Nonlinear Kinematic Hardening Material Model}{section.6}% 21

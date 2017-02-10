@@ -133,14 +133,33 @@ December\fi,\space
 \begin{document}
 \thispagestyle{fancy}
 \maketitle
+\tableofcontents
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \section{Chapter Summary and Highlights}
 
+In the Chapter, the mechanical behaviors of elastoplastic materials
+is tested. The purpose is to simulate the simplest material points
+or the simplest solid brick for the sake of education. 
 
+Section.\ref{section_elastic_constitutive_example} and 
+Section.\ref{section_elastoplastic_constitutive_example} are testing
+one material point directly. 
+
+Section.\ref{section_elastic_brick_example} and 
+Section.\ref{section_elastoplastic_brick_example} are testing the 
+material (Gauss Points) through the 8-node solid brick element. 
+
+Distinct yield surfaces are tested, including von-Mises and 
+Drucker-Prager yield surfaces with associative and 
+non-associative plastic flow. 
+
+Likewise, various hardening rules are simulated, including 
+isotropic hardening, kinematic hardening, 
+Armstrong-Frederick hardening, and multi-yield-surface hardening.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -153,26 +172,25 @@ December\fi,\space
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Elastic Solid Constitutive Examples}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
+\section{Elastic Solid Constitutive Examples}
+\label{section_elastic_constitutive_example}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Linear Elastic Constitutive Examples}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph{Pure Shear, Monotonic Loading} ~ 
 
 Material Parameters:
-\lstinputlisting{../fei_examples/2_1_linear_elastic/1pure_shear_mono_loading/main.fei}
+\lstinputlisting{../fei_examples/linear_elastic/1pure_shear_mono_loading/main.fei}
 
 Material Response:
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=12cm]{../fei_examples/2_1_linear_elastic/1pure_shear_mono_loading/result.pdf}
+\includegraphics[width=12cm]{../fei_examples/linear_elastic/1pure_shear_mono_loading/result.pdf}
 \caption{
-\label{linear_elastic_shear_mono}
+\label{Linear Elastic Pure Shear Monotomic Loadin}
 Linear Elastic Pure Shear Monotomic Loading}
 \end{center}
 \end{figure}
@@ -182,14 +200,14 @@ Linear Elastic Pure Shear Monotomic Loading}
 \paragraph{Pure Shear, Cyclic Loading} ~ 
 
 Material Parameters:
-\lstinputlisting{../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_loading/main.fei}
+\lstinputlisting{../fei_examples/linear_elastic/2pure_shear_cyclic_loading/main.fei}
 
 Material Response:
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=12cm]{../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_loading/result.pdf}
+\includegraphics[width=12cm]{../fei_examples/linear_elastic/2pure_shear_cyclic_loading/result.pdf}
 \caption{
-\label{linear_elastic_shear_mono}
+\label{Linear Elastic Pure Shear Cyclic Loadin}
 Linear Elastic Pure Shear Cyclic Loading}
 \end{center}
 \end{figure}
@@ -199,15 +217,15 @@ Linear Elastic Pure Shear Cyclic Loading}
 \paragraph{Uniaxial Strain, Monotonic Loading} ~ 
 
 Material Parameters:
-\lstinputlisting{../fei_examples/2_1_linear_elastic/3uniaxial_strain_mono_loading/main.fei}
+\lstinputlisting{../fei_examples/linear_elastic/3uniaxial_strain_mono_loading/main.fei}
 
 Material Response:
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=12cm]{../fei_examples/2_1_linear_elastic/3uniaxial_strain_mono_loading/result.pdf}
+\includegraphics[width=12cm]{../fei_examples/linear_elastic/3uniaxial_strain_mono_loading/result.pdf}
 \caption{
-\label{linear_elastic_shear_mono}
-Linear Elastic Pure Shear Cyclic Loading}
+\label{Linear Elastic Uniaxial Monotonic Loading}
+Linear Elastic Uniaxial Monotonic Loading}
 \end{center}
 \end{figure}
 
@@ -216,33 +234,33 @@ Linear Elastic Pure Shear Cyclic Loading}
 \paragraph{Uniaxial Strain, Cyclic Loading} ~
 
 Material Parameters:
-\lstinputlisting{../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_loading/main.fei}
+\lstinputlisting{../fei_examples/linear_elastic/2pure_shear_cyclic_loading/main.fei}
 
 Material Response:
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=12cm]{../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_loading/result.pdf}
+\includegraphics[width=12cm]{../fei_examples/linear_elastic/2pure_shear_cyclic_loading/result.pdf}
 \caption{
-\label{linear_elastic_shear_mono}
-Linear Elastic Pure Shear Cyclic Loading}
+\label{Linear Elastic Uniaxial Cyclic Loading}
+Linear Elastic Uniaxial Cyclic Loading}
 \end{center}
 \end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
-\subsection{Nonlinear Elastic Constitutive Examples}
+% \newpage
+% \subsection{Nonlinear Elastic Constitutive Examples}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Pure Shear, Monotonic Loading} ~
+% \paragraph{Pure Shear, Monotonic Loading} ~
 
 % Material Parameters:
-% \lstinputlisting{../fei_examples/2_2_nonlinear_elastic/2pure_shear_cyclic_loading/main.fei}
+% \lstinputlisting{../fei_examples/nonlinear_elastic/2pure_shear_cyclic_loading/main.fei}
 
 % Material Response:
 % \begin{figure}[H]
 % \begin{center}
-% \includegraphics[width=12cm]{../fei_examples/2_2_nonlinear_elastic/2pure_shear_cyclic_loading/result.pdf}
+% \includegraphics[width=12cm]{../fei_examples/nonlinear_elastic/2pure_shear_cyclic_loading/result.pdf}
 % \caption{
 % \label{linear_elastic_shear_mono}
 % Linear Elastic Pure Shear Cyclic Loading}
@@ -251,15 +269,15 @@ Linear Elastic Pure Shear Cyclic Loading}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \newpage
-\paragraph{Pure Shear, Cyclic Loading} ~
+% \paragraph{Pure Shear, Cyclic Loading} ~
 
 % Material Parameters:
-% \lstinputlisting{../fei_examples/2_2_nonlinear_elastic/2pure_shear_cyclic_loading/main.fei}
+% \lstinputlisting{../fei_examples/nonlinear_elastic/2pure_shear_cyclic_loading/main.fei}
 
 % Material Response:
 % \begin{figure}[H]
 % \begin{center}
-% \includegraphics[width=12cm]{../fei_examples/2_2_nonlinear_elastic/2pure_shear_cyclic_loading/result.pdf}
+% \includegraphics[width=12cm]{../fei_examples/nonlinear_elastic/2pure_shear_cyclic_loading/result.pdf}
 % \caption{
 % \label{linear_elastic_shear_mono}
 % Linear Elastic Pure Shear Cyclic Loading}
@@ -267,9 +285,21 @@ Linear Elastic Pure Shear Cyclic Loading}
 % \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Uniaxial Strain, Monotonic Loading} ~
+% \paragraph{Uniaxial Strain, Monotonic Loading} ~
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Uniaxial Strain, Cyclic Loading} ~
+% \paragraph{Uniaxial Strain, Cyclic Loading} ~
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -281,7 +311,7 @@ Linear Elastic Pure Shear Cyclic Loading}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \section{Elastic Plastic Solid Constitutive Examples}
-
+\label{section_elastoplastic_constitutive_example}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Elastic Perfectly Plastic Constitutive Examples}
 
@@ -290,15 +320,15 @@ Linear Elastic Pure Shear Cyclic Loading}
 \paragraph{Pure Shear} ~
 
 Material Parameters:
-\lstinputlisting{../fei_examples/4_1_perfectly_plastic/2pure_shear_cyclic_loading/main.fei}
+\lstinputlisting{../fei_examples/perfectly_plastic/2pure_shear_cyclic_loading/main.fei}
 
 Material Response:
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=11cm]{../fei_examples/4_1_perfectly_plastic/2pure_shear_cyclic_loading/result.pdf}
+\includegraphics[width=11cm]{../fei_examples/perfectly_plastic/2pure_shear_cyclic_loading/result.pdf}
 \caption{
-\label{linear_elastic_shear_mono}
-Linear Elastic Pure Shear Cyclic Loading}
+\label{Perfectly Plastic Pure Shear Cyclic Loadin}
+Perfectly Plastic Pure Shear Cyclic Loading}
 \end{center}
 \end{figure}
 
@@ -307,15 +337,208 @@ Linear Elastic Pure Shear Cyclic Loading}
 \paragraph{Uniaxial Strain} ~
 
 Material Parameters:
-\lstinputlisting{../fei_examples/4_1_perfectly_plastic/4uniaxial_strain_cyclic_loading/main.fei}
+\lstinputlisting{../fei_examples/perfectly_plastic/4uniaxial_strain_cyclic_loading/main.fei}
 
 Material Response:
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=11cm]{../fei_examples/4_1_perfectly_plastic/4uniaxial_strain_cyclic_loading/result.pdf}
+\includegraphics[width=11cm]{../fei_examples/perfectly_plastic/4uniaxial_strain_cyclic_loading/result.pdf}
 \caption{
-\label{linear_elastic_shear_mono}
-Linear Elastic Pure Shear Cyclic Loading}
+\label{Perfectly Plastic Uniaxial Cyclic Loading}
+Perfectly Plastic Uniaxial Cyclic Loading}
+\end{center}
+\end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsection{Elastic Plastic, Isotropic Hardening, Constitutive Examples}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{Pure Shear, Monotonic Loading} ~
+
+Material Parameters:
+\lstinputlisting{../fei_examples/elastoplastic_isotropic_hardening/1pure_shear_mono_loading/main.fei}
+
+Material Response:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/elastoplastic_isotropic_hardening/1pure_shear_mono_loading/result.pdf}
+\caption{
+\label{Isotropic Hardening Pure Shear Monotonic Loadin}
+Isotropic Hardening Pure Shear Monotonic Loading}
+\end{center}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\paragraph{Pure Shear, Cyclic Loading} ~
+
+Material Parameters:
+\lstinputlisting{../fei_examples/elastoplastic_isotropic_hardening/2pure_shear_cyclic_loading/main.fei}
+
+Material Response:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/elastoplastic_isotropic_hardening/2pure_shear_cyclic_loading/result.pdf}
+\caption{
+\label{Isotropic Hardening Pure Shear Cyclic Loadin}
+Isotropic Hardening Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\paragraph{Uniaxial Strain, Monotonic Loading} ~
+
+Material Parameters:
+\lstinputlisting{../fei_examples/elastoplastic_isotropic_hardening/3uniaxial_strain_mono_loading/main.fei}
+
+Material Response:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/elastoplastic_isotropic_hardening/3uniaxial_strain_mono_loading/result.pdf}
+\caption{
+\label{Isotropic Hardening Uniaxial Monotonic Loading}
+Isotropic Hardening Uniaxial Monotonic Loading}
+\end{center}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\paragraph{Uniaxial Strain, Cyclic Loading} ~
+
+Material Parameters:
+\lstinputlisting{../fei_examples/elastoplastic_isotropic_hardening/4uniaxial_strain_cyclic_loading/main.fei}
+
+Material Response:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/elastoplastic_isotropic_hardening/4uniaxial_strain_cyclic_loading/result.pdf}
+\caption{
+\label{Isotropic Hardening Uniaxial Cyclic Loading}
+Isotropic Hardening Uniaxial Cyclic Loading}
+\end{center}
+\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsection{Elastic Plastic, Kinematic Hardening, Constitutive Examples}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{Pure Shear, Monotonic Loading} ~
+
+Material Parameters:
+\lstinputlisting{../fei_examples/elastoplastic_kinematic_hardening/1pure_shear_mono_loading/main.fei}
+
+Material Response:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/elastoplastic_kinematic_hardening/1pure_shear_mono_loading/result.pdf}
+\caption{
+\label{Kinematic Hardening Monotonic Cyclic Loading}
+Kinematic Hardening Monotonic Cyclic Loading}
+\end{center}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\paragraph{Pure Shear, Cyclic Loading} ~
+
+Material Parameters:
+\lstinputlisting{../fei_examples/elastoplastic_kinematic_hardening/2pure_shear_cyclic_loading/main.fei}
+
+Material Response:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/elastoplastic_kinematic_hardening/2pure_shear_cyclic_loading/result.pdf}
+\caption{
+\label{Kinematic Hardening Pure Shear Cyclic Loadin}
+Kinematic Hardening Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\paragraph{Uniaxial Strain, Monotonic Loading} ~
+
+Material Parameters:
+\lstinputlisting{../fei_examples/elastoplastic_kinematic_hardening/3uniaxial_strain_mono_loading/main.fei}
+
+Material Response:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/elastoplastic_kinematic_hardening/3uniaxial_strain_mono_loading/result.pdf}
+\caption{
+\label{Kinematic Hardening Uniaxial Monotonic Loading}
+Kinematic Hardening Uniaxial Monotonic Loading}
+\end{center}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\paragraph{Uniaxial Strain, Cyclic Loading} ~
+
+Material Parameters:
+\lstinputlisting{../fei_examples/elastoplastic_kinematic_hardening/4uniaxial_strain_cyclic_loading/main.fei}
+
+Material Response:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/elastoplastic_kinematic_hardening/4uniaxial_strain_cyclic_loading/result.pdf}
+\caption{
+\label{Kinematic Hardening Uniaxial Cyclic Loading}
+Kinematic Hardening Uniaxial Cyclic Loading}
+\end{center}
+\end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsection{Elastic Plastic, Multiple Yield Surface, von-Mises, Constitutive Examples}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{Pure Shear, Monotonic Loading} ~
+
+Material Parameters:
+\lstinputlisting{../fei_examples/Multi_Yield_Surface_von_Mises/1pure_shear_mono_loading/main.fei}
+
+Material Response:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/Multi_Yield_Surface_von_Mises/1pure_shear_mono_loading/result.pdf}
+\caption{
+\label{Multiple Yield Surface Pure Shear Monotoni}
+Multiple Yield Surface Pure Shear Monotonic Loading}
+\end{center}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\paragraph{Pure Shear, Cyclic Loading} ~
+
+Material Parameters:
+\lstinputlisting{../fei_examples/Multi_Yield_Surface_von_Mises/2pure_shear_cyclic_loading/main.fei}
+
+Material Response:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/Multi_Yield_Surface_von_Mises/2pure_shear_cyclic_loading/result.pdf}
+\caption{
+\label{Multiple Yield Surface Pure Shear Cycli}
+Multiple Yield Surface Pure Shear Cyclic Loading}
 \end{center}
 \end{figure}
 
@@ -323,25 +546,14 @@ Linear Elastic Pure Shear Cyclic Loading}
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Elastic Plastic, Isotropic Hardening, Constitutive Examples}
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Pure Shear, Monotonic Loading} ~
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Pure Shear, Cyclic Loading} ~
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Uniaxial Strain, Monotonic Loading} ~
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Uniaxial Strain, Cyclic Loading} ~
+
+
 
 
 
@@ -352,185 +564,338 @@ Linear Elastic Pure Shear Cyclic Loading}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \section{Elastic Single Solid Finite Finite Element Examples}
-
+\label{section_elastic_brick_example}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Linear Elastic, Solid Examples}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph{Pure Shear, Monotonic Loading} ~
 
+Model Description:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{../Figure-files/shear_brick.JPG}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+Material Response at Gauss Point:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/linear_elastic_solid/1pure_shear_mono_loading/result.pdf}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \paragraph{Pure Shear, Cyclic Loading} ~
 
+Model Description:
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{../Figure-files/shear_cyclic_brick.JPG}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+Material Response at Gauss Point:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/linear_elastic_solid/2pure_shear_cyclic_loading/result.pdf}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \paragraph{Uniaxial Strain, Monotonic Loading} ~
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Model Description:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{../Figure-files/vertical.JPG}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+Material Response at Gauss Point:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/linear_elastic_solid/3uniaxial_strain_mono_loading/result.pdf}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \paragraph{Uniaxial Strain, Cyclic Loading} ~
 
+Model Description:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{../Figure-files/vertical_cyclic.JPG}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+Material Response at Gauss Point:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/linear_elastic_solid/4uniaxial_strain_cyclic_loading/result.pdf}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Nonlinear Elastic Pure Shear Solid Examples}
+% \newpage
+% \subsection{Nonlinear Elastic Pure Shear Solid Examples}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Pure Shear, Monotonic Loading} ~
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \paragraph{Pure Shear, Monotonic Loading} ~
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Pure Shear, Cyclic Loading} ~
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Uniaxial Strain, Monotonic Loading} ~
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Uniaxial Strain, Cyclic Loading} ~
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \paragraph{Pure Shear, Cyclic Loading} ~
 
 
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \paragraph{Uniaxial Strain, Monotonic Loading} ~
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \paragraph{Uniaxial Strain, Cyclic Loading} ~
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \section{Elastic-Plastic Single Solid Finite Element Examples}
+\label{section_elastoplastic_brick_example}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Elastic Perfectly Plastic, Cyclic Loading, Pure Shear Solid Examples}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Elastic Perfectly Plastic, Monotonic Loading, Pure Shear Solid Examples}
+Model Description:
 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{../Figure-files/shear_cyclic_brick.JPG}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{von Mises Yield Function, von Mises Plastic Potential Function}
+Material Response at Gauss Point:
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{von Mises Yield Function, Drucker Prager Plastic Potential Function}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Drucker Prager Yield Function, von Mises Plastic Potential Function}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Drucker Prager Yield Function, Drucker Prager Plastic Potential Function}
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Elastic Perfectly Plastic, Monotonic Loading,  Triaxial Solid Examples}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{von Mises Yield Function, von Mises Plastic Potential Function}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{von Mises Yield Function, Drucker Prager Plastic Potential Function}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/perfectly_plastic_pure_shear_solid/2pure_shear_cyclic_loading/result.pdf}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Drucker Prager Yield Function, von Mises Plastic Potential Function}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsubsection{von Mises Yield Function, Isotropic Hardening} ~
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Drucker Prager Yield Function, Drucker Prager Plastic Potential Function}
+Model Description:
 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{../Figure-files/shear_cyclic_brick.JPG}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
 
+Material Response at Gauss Point:
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Elastic  Plastic, Isotropic Hardening,  Pure Shear Solid Examples}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Monotonic Loading} ~
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Cyclic Loading} ~
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Elastic Plastic, Isotropic Hardening, Triaxial Solid Examples}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Monotonic Loading} ~
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/isotropic_hardening_pure_shear/2pure_shear_cyclic_loading/result.pdf}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Cyclic Loading} ~
+% % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsubsection{von Mises Yield Function, Kinematic Hardening} ~
+
+Model Description:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{../Figure-files/shear_cyclic_brick.JPG}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+Material Response at Gauss Point:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/kinematic_hardening_pure_shear_solid/2pure_shear_cyclic_loading/result.pdf}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+% % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsubsection{Drucker Prager Yield Function, von Mises Plastic Potential Function, Perfectly Plastic Hardening Rule} ~
+
+Model Description:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{../Figure-files/shear_cyclic_brick.JPG}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+Material Response at Gauss Point:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/kinematic_hardening_pure_shear_solid/2pure_shear_cyclic_loading/result.pdf}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+
+% % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsubsection{Drucker Prager Yield Function, Drucker Prager Plastic Potential Function, Perfectly Plastic Hardening Rule} ~ 
+
+Model Description:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{../Figure-files/shear_cyclic_brick.JPG}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+Material Response at Gauss Point:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/Drucker_Prager_Associate_Flow_Solid/2pure_shear_cyclic_loading/result.pdf}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Elastic Plastic, Cam Clay Model, Various Stress Paths}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Monotonic Loading} ~
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Cyclic Loading} ~
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsection{Elastic Plastic, Cam Clay Model, Various Stress Paths (To Be Added)}
 
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \newpage
+\subsection{Elastic  Plastic, SaniSand Models, Pure Shear Solid Examples (To Be Added)}
 
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Elastic  Plastic, Kinematic Hardening,  Pure Shear Solid Examples}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Monotonic Loading} ~
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Cyclic Loading} ~
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Elastic Plastic, Kinematic Hardening, Triaxial Solid Examples}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Monotonic Loading} ~
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{Cyclic Loading} ~
-
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Elastic  Plastic, SaniSand Models,  Pure Shear and Triaxial Solid Examples}
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \newpage
 \section{Stiffness Reduction and Damping Curves Modeling}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Pisano Material Model}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Pisano Material Model (To Be Added)}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \subsection{Drucker Prager with Armstrong Frederick
             Nonlinear Kinematic Hardening
             Material Model}
 
 
+
+Model Description:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{../Figure-files/shear_cyclic_brick.JPG}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+Material Response at Gauss Point:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/Drucker_Prager_Armstrong_Frederick/2pure_shear_cyclic_loading/result.pdf}
+\caption{
+\label{Linear Elastic Pure Shear Cyclic Loadin}
+Linear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
 
 
 

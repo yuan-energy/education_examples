@@ -1,0 +1,4045 @@
+Script started on Thu 09 Feb 2017 10:05:35 AM PST
+                                                               
+                                                               
+  The Finite Element Interpreter                               
+                                                               
+  Real ESSI                                                  
+  Earthquake Soil Structure Interaction Simulator            
+                                                             
+  Sequential processing mode.                                
+                                                             
+Version : --NOT FROM GIT REPO--
+Compiled: Feb  8 2017 at 10:57:05
+Time Now: Feb 09 2017 at 10:05:35
+                                                               
+Static startup tips:                                           
+ * Remember: Every command ends with a semicolon ';'.          
+ * Type 'quit;' or 'exit;' to finish.                          
+ * Run 'essi -h' to see available command line options.        
+                                                               
+Including: "2.fei"
+
+
+Model name is being set to "vonMises"
+
+
+
+Starting new stage: shearing
+
+changing previous_stage_name from  to shearing
+Setting set_constitutive_integration_method = 1
+
+Starting sequential transient multistep analysis
+====================================================================================================
+Creating analysis model........................................................................Pass!
+Checking constraint handler....................................................................Pass!
+Checking numberer..............................................................................Pass!
+Checking analysis algorithm....................................................................Pass!
+Checking system of equation handler............................................................Pass!
+Checking transient integration handler.........................................................Pass!
+Setting up the DirectIntegrationAnalysis.......................................................Done!
+
+
+
+> Analysis Start -----------------------------------------------------------------------------Writing Initial Conditions   and  (0) - Outputting mesh.
+
+Transient Analysis: [    1/499  ] 
+WARNING PlainHandler::handle() -  multiple single pointconstraints at DOF 0 for node 1
+WARNING PlainHandler::handle() -  multiple single pointconstraints at DOF 0 for node 2
+WARNING PlainHandler::handle() -  multiple single pointconstraints at DOF 0 for node 3
+WARNING PlainHandler::handle() -  multiple single pointconstraints at DOF 0 for node 4
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015707
+	  	                  Norm deltaF: 1.4782e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0553e-20
+	  	                  Norm deltaF: 5.8512e-14
+
+Transient Analysis: [2    /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015703
+	  	                  Norm deltaF: 1.9643e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5999e-20
+	  	                  Norm deltaF: 1.099e-13
+
+Transient Analysis: [3    /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015696
+	  	                  Norm deltaF: 1.0074e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.1479e-20
+	  	                  Norm deltaF: 1.1235e-13
+
+Transient Analysis: [4    /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015684
+	  	                  Norm deltaF: 5.0132e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.2488e-19
+	  	                  Norm deltaF: 1.5056e-13
+
+Transient Analysis: [5    /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015669
+	  	                  Norm deltaF: 1.7434e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.45e-20
+	  	                  Norm deltaF: 1.1826e-13
+
+Transient Analysis: [6    /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015649
+	  	                  Norm deltaF: 2.8775e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.9812e-20
+	  	                  Norm deltaF: 3.8892e-13
+
+Transient Analysis: [7    /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015626
+	  	                  Norm deltaF: 2.6126e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.9227e-20
+	  	                  Norm deltaF: 2.6126e-13
+
+Transient Analysis: [8    /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015599
+	  	                  Norm deltaF: 5.4983e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.2608e-19
+	  	                  Norm deltaF: 3.3388e-13
+
+Transient Analysis: [9    /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015568
+	  	                  Norm deltaF: 4.0818e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.9284e-20
+	  	                  Norm deltaF: 4.696e-13
+
+Transient Analysis: [10   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015533
+	  	                  Norm deltaF: 6.4702e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.8936e-19
+	  	                  Norm deltaF: 3.0079e-13
+
+Transient Analysis: [11   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015495
+	  	                  Norm deltaF: 4.696e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.4017e-20
+	  	                  Norm deltaF: 3.5499e-13
+
+Transient Analysis: [12   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015452
+	  	                  Norm deltaF: 4.7643e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1468e-19
+	  	                  Norm deltaF: 6.6534e-13
+
+Transient Analysis: [13   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015406
+	  	                  Norm deltaF: 8.079e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.3465e-19
+	  	                  Norm deltaF: 1.0558e-12
+
+Transient Analysis: [14   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015356
+	  	                  Norm deltaF: 6.4936e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.4663e-19
+	  	                  Norm deltaF: 7.1733e-13
+
+Transient Analysis: [15   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015302
+	  	                  Norm deltaF: 1.0819e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.7266e-19
+	  	                  Norm deltaF: 8.3009e-13
+
+Transient Analysis: [16   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015245
+	  	                  Norm deltaF: 6.0292e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.7557e-19
+	  	                  Norm deltaF: 9.4093e-13
+
+Transient Analysis: [17   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015183
+	  	                  Norm deltaF: 7.0196e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.7359e-19
+	  	                  Norm deltaF: 6.2786e-13
+
+Transient Analysis: [18   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015118
+	  	                  Norm deltaF: 3.7919e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.0018e-20
+	  	                  Norm deltaF: 3.7919e-13
+
+Transient Analysis: [19   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015049
+	  	                  Norm deltaF: 8.1586e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.6668e-19
+	  	                  Norm deltaF: 7.6104e-13
+
+Transient Analysis: [20   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014977
+	  	                  Norm deltaF: 1.3601e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.804e-19
+	  	                  Norm deltaF: 5.0603e-13
+
+Transient Analysis: [21   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.000149
+	  	                  Norm deltaF: 6.0759e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.2511e-19
+	  	                  Norm deltaF: 6.0759e-13
+
+Transient Analysis: [22   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014821
+	  	                  Norm deltaF: 1.0978e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.4585e-19
+	  	                  Norm deltaF: 4.6874e-13
+
+Transient Analysis: [23   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014737
+	  	                  Norm deltaF: 1.1326e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.6074e-19
+	  	                  Norm deltaF: 8.296e-13
+
+Transient Analysis: [24   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001465
+	  	                  Norm deltaF: 8.8061e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.7938e-19
+	  	                  Norm deltaF: 8.8061e-13
+
+Transient Analysis: [25   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014559
+	  	                  Norm deltaF: 1.1326e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.2668e-19
+	  	                  Norm deltaF: 3.979e-13
+
+Transient Analysis: [26   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014464
+	  	                  Norm deltaF: 1.8331e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.8058e-19
+	  	                  Norm deltaF: 1.0248e-12
+
+Transient Analysis: [27   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014366
+	  	                  Norm deltaF: 1.1869e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.6559e-19
+	  	                  Norm deltaF: 1.1869e-12
+
+Transient Analysis: [28   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014265
+	  	                  Norm deltaF: 2.1101e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.2236e-19
+	  	                  Norm deltaF: 1.8305e-12
+
+Transient Analysis: [29   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001416
+	  	                  Norm deltaF: 1.0543e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.7095e-19
+	  	                  Norm deltaF: 1.0543e-12
+
+Transient Analysis: [30   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014051
+	  	                  Norm deltaF: 1.3355e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0638e-19
+	  	                  Norm deltaF: 2.2752e-12
+
+Transient Analysis: [31   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013939
+	  	                  Norm deltaF: 1.6757e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.3782e-19
+	  	                  Norm deltaF: 1.257e-12
+
+Transient Analysis: [32   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013824
+	  	                  Norm deltaF: 2.1586e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5266e-19
+	  	                  Norm deltaF: 1.2557e-12
+
+Transient Analysis: [33   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013705
+	  	                  Norm deltaF: 1.7649e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.8477e-19
+	  	                  Norm deltaF: 2.1764e-12
+
+Transient Analysis: [34   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013583
+	  	                  Norm deltaF: 6.6776e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.3355e-19
+	  	                  Norm deltaF: 6.6776e-13
+
+Transient Analysis: [35   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013457
+	  	                  Norm deltaF: 2.1964e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5299e-19
+	  	                  Norm deltaF: 2.352e-12
+
+Transient Analysis: [36   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013328
+	  	                  Norm deltaF: 9.5456e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.9762e-19
+	  	                  Norm deltaF: 9.5456e-13
+
+Transient Analysis: [37   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013196
+	  	                  Norm deltaF: 1.8689e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.9497e-19
+	  	                  Norm deltaF: 1.9327e-12
+
+Transient Analysis: [38   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013061
+	  	                  Norm deltaF: 2.5402e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.0868e-19
+	  	                  Norm deltaF: 2.1846e-12
+
+Transient Analysis: [39   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012922
+	  	                  Norm deltaF: 1.7326e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.8236e-19
+	  	                  Norm deltaF: 1.6337e-12
+
+Transient Analysis: [40   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001278
+	  	                  Norm deltaF: 2.1276e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.8357e-19
+	  	                  Norm deltaF: 1.2258e-12
+
+Transient Analysis: [41   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012635
+	  	                  Norm deltaF: 1.5358e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.1461e-19
+	  	                  Norm deltaF: 1.9435e-12
+
+Transient Analysis: [42   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012487
+	  	                  Norm deltaF: 2.163e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.6487e-19
+	  	                  Norm deltaF: 1.7213e-12
+
+Transient Analysis: [43   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012336
+	  	                  Norm deltaF: 1.7984e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.4602e-19
+	  	                  Norm deltaF: 1.5358e-12
+
+Transient Analysis: [44   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012181
+	  	                  Norm deltaF: 2.7847e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.5269e-19
+	  	                  Norm deltaF: 9.3921e-13
+
+Transient Analysis: [45   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012024
+	  	                  Norm deltaF: 6.2528e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.5619e-19
+	  	                  Norm deltaF: 6.2528e-13
+
+Transient Analysis: [46   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011864
+	  	                  Norm deltaF: 1.8972e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.3921e-19
+	  	                  Norm deltaF: 1.7511e-12
+
+Transient Analysis: [47   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011701
+	  	                  Norm deltaF: 1.6436e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.1616e-19
+	  	                  Norm deltaF: 2.5825e-12
+
+Transient Analysis: [48   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011535
+	  	                  Norm deltaF: 1.8225e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.6806e-19
+	  	                  Norm deltaF: 1.5125e-12
+
+Transient Analysis: [49   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011366
+	  	                  Norm deltaF: 1.2506e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.6418e-19
+	  	                  Norm deltaF: 1.2506e-12
+
+Transient Analysis: [50   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011194
+	  	                  Norm deltaF: 2.5243e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.3877e-19
+	  	                  Norm deltaF: 1.9327e-12
+
+Transient Analysis: [51   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001102
+	  	                  Norm deltaF: 1.369e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.2365e-19
+	  	                  Norm deltaF: 1.1022e-12
+
+Transient Analysis: [52   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010842
+	  	                  Norm deltaF: 2.2851e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.1537e-19
+	  	                  Norm deltaF: 2.3188e-12
+
+Transient Analysis: [53   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010662
+	  	                  Norm deltaF: 1.5463e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.2345e-19
+	  	                  Norm deltaF: 1.4823e-12
+
+Transient Analysis: [54   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001048
+	  	                  Norm deltaF: 1.6436e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.3265e-19
+	  	                  Norm deltaF: 1.369e-12
+
+Transient Analysis: [55   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010295
+	  	                  Norm deltaF: 2.8079e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.749e-19
+	  	                  Norm deltaF: 1.4953e-12
+
+Transient Analysis: [56   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010107
+	  	                  Norm deltaF: 2.2766e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.3943e-19
+	  	                  Norm deltaF: 1.7975e-12
+
+Transient Analysis: [57   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.9172e-05
+	  	                  Norm deltaF: 2.3437e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.5081e-19
+	  	                  Norm deltaF: 1.5629e-12
+
+Transient Analysis: [58   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.7246e-05
+	  	                  Norm deltaF: 2.9928e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.988e-19
+	  	                  Norm deltaF: 2.302e-12
+
+Transient Analysis: [59   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.5296e-05
+	  	                  Norm deltaF: 3.613e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.6086e-19
+	  	                  Norm deltaF: 3.2871e-12
+
+Transient Analysis: [60   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.3323e-05
+	  	                  Norm deltaF: 3.0271e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.0758e-19
+	  	                  Norm deltaF: 3.0271e-12
+
+Transient Analysis: [61   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.1327e-05
+	  	                  Norm deltaF: 3.7996e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.6011e-19
+	  	                  Norm deltaF: 3.7723e-12
+
+Transient Analysis: [62   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.9309e-05
+	  	                  Norm deltaF: 2.8262e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.0881e-19
+	  	                  Norm deltaF: 4.5602e-12
+
+Transient Analysis: [63   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.7268e-05
+	  	                  Norm deltaF: 4.0227e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.3267e-18
+	  	                  Norm deltaF: 4.6431e-12
+
+Transient Analysis: [64   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.5206e-05
+	  	                  Norm deltaF: 2.6831e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.3904e-19
+	  	                  Norm deltaF: 2.2737e-12
+
+Transient Analysis: [65   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.3122e-05
+	  	                  Norm deltaF: 2.9339e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.0048e-19
+	  	                  Norm deltaF: 2.7963e-12
+
+Transient Analysis: [66   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.1019e-05
+	  	                  Norm deltaF: 2.7497e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.8092e-19
+	  	                  Norm deltaF: 2.7497e-12
+
+Transient Analysis: [67   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.8895e-05
+	  	                  Norm deltaF: 2.8444e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.1675e-19
+	  	                  Norm deltaF: 2.8444e-12
+
+Transient Analysis: [68   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.6752e-05
+	  	                  Norm deltaF: 1.9625e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5914e-19
+	  	                  Norm deltaF: 1.9625e-12
+
+Transient Analysis: [69   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.459e-05
+	  	                  Norm deltaF: 2.0464e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.2181e-19
+	  	                  Norm deltaF: 2.0464e-12
+
+Transient Analysis: [70   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.2409e-05
+	  	                  Norm deltaF: 1.946e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.3187e-19
+	  	                  Norm deltaF: 1.946e-12
+
+Transient Analysis: [71   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.0211e-05
+	  	                  Norm deltaF: 2.16e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.6063e-19
+	  	                  Norm deltaF: 2.16e-12
+
+Transient Analysis: [72   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.7995e-05
+	  	                  Norm deltaF: 3.0014e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.1658e-19
+	  	                  Norm deltaF: 4.341e-12
+
+Transient Analysis: [73   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.5762e-05
+	  	                  Norm deltaF: 2.136e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.8107e-19
+	  	                  Norm deltaF: 2.136e-12
+
+Transient Analysis: [74   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.3513e-05
+	  	                  Norm deltaF: 2.2992e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.6764e-19
+	  	                  Norm deltaF: 2.2992e-12
+
+Transient Analysis: [75   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.1249e-05
+	  	                  Norm deltaF: 1.4603e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.2978e-19
+	  	                  Norm deltaF: 1.4603e-12
+
+Transient Analysis: [76   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.897e-05
+	  	                  Norm deltaF: 1.5835e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.9033e-19
+	  	                  Norm deltaF: 1.5835e-12
+
+Transient Analysis: [77   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.6675e-05
+	  	                  Norm deltaF: 1.7166e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.8318e-19
+	  	                  Norm deltaF: 1.7166e-12
+
+Transient Analysis: [78   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.4367e-05
+	  	                  Norm deltaF: 3.0036e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.3447e-19
+	  	                  Norm deltaF: 2.3327e-12
+
+Transient Analysis: [79   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.2046e-05
+	  	                  Norm deltaF: 2.5243e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.2757e-19
+	  	                  Norm deltaF: 1.7053e-12
+
+Transient Analysis: [80   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.9712e-05
+	  	                  Norm deltaF: 4.1756e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.7325e-19
+	  	                  Norm deltaF: 4.7395e-12
+
+Transient Analysis: [81   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.7365e-05
+	  	                  Norm deltaF: 3.0036e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.3447e-19
+	  	                  Norm deltaF: 4.5772e-12
+
+Transient Analysis: [82   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5007e-05
+	  	                  Norm deltaF: 1.438e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.1819e-19
+	  	                  Norm deltaF: 1.438e-12
+
+Transient Analysis: [83   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.2637e-05
+	  	                  Norm deltaF: 4.7272e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.7929e-19
+	  	                  Norm deltaF: 3.5389e-12
+
+Transient Analysis: [84   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0257e-05
+	  	                  Norm deltaF: 3.4106e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.9441e-19
+	  	                  Norm deltaF: 4.3051e-12
+
+Transient Analysis: [85   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7868e-05
+	  	                  Norm deltaF: 5.1273e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0528e-18
+	  	                  Norm deltaF: 2.8806e-12
+
+Transient Analysis: [86   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.5468e-05
+	  	                  Norm deltaF: 5.0331e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0089e-18
+	  	                  Norm deltaF: 3.2654e-12
+
+Transient Analysis: [87   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.306e-05
+	  	                  Norm deltaF: 4.2614e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.8481e-19
+	  	                  Norm deltaF: 3.7945e-12
+
+Transient Analysis: [88   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0644e-05
+	  	                  Norm deltaF: 5.707e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1911e-18
+	  	                  Norm deltaF: 3.4502e-12
+
+Transient Analysis: [89   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8221e-05
+	  	                  Norm deltaF: 4.1833e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.0322e-19
+	  	                  Norm deltaF: 3.9201e-12
+
+Transient Analysis: [90   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.579e-05
+	  	                  Norm deltaF: 2.0901e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.8113e-19
+	  	                  Norm deltaF: 2.0901e-12
+
+Transient Analysis: [91   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.3353e-05
+	  	                  Norm deltaF: 2.7285e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.6242e-19
+	  	                  Norm deltaF: 2.7285e-12
+
+Transient Analysis: [92   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.091e-05
+	  	                  Norm deltaF: 2.7591e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.8726e-19
+	  	                  Norm deltaF: 3.3184e-12
+
+Transient Analysis: [93   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.8463e-05
+	  	                  Norm deltaF: 3.7309e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.4793e-19
+	  	                  Norm deltaF: 1.9887e-12
+
+Transient Analysis: [94   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.601e-05
+	  	                  Norm deltaF: 2.2766e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5563e-19
+	  	                  Norm deltaF: 2.2766e-12
+
+Transient Analysis: [95   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.3554e-05
+	  	                  Norm deltaF: 2.0994e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.2237e-19
+	  	                  Norm deltaF: 2.9841e-12
+
+Transient Analysis: [96   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1094e-05
+	  	                  Norm deltaF: 2.3847e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.9599e-19
+	  	                  Norm deltaF: 2.3847e-12
+
+Transient Analysis: [97   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.6315e-06
+	  	                  Norm deltaF: 1.8784e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.9411e-19
+	  	                  Norm deltaF: 1.8784e-12
+
+Transient Analysis: [98   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.1669e-06
+	  	                  Norm deltaF: 2.1927e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.3986e-19
+	  	                  Norm deltaF: 2.1927e-12
+
+Transient Analysis: [99   /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7007e-06
+	  	                  Norm deltaF: 2.8422e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.231e-19
+	  	                  Norm deltaF: 1.9592e-12
+
+Transient Analysis: [100  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.2337e-06
+	  	                  Norm deltaF: 4.6847e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.067e-18
+	  	                  Norm deltaF: 2.6049e-12
+
+Transient Analysis: [101  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.2337e-06
+	  	                  Norm deltaF: 1.9592e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.9516e-19
+	  	                  Norm deltaF: 1.9592e-12
+
+Transient Analysis: [102  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7007e-06
+	  	                  Norm deltaF: 1.447e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.9139e-19
+	  	                  Norm deltaF: 1.447e-12
+
+Transient Analysis: [103  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.1669e-06
+	  	                  Norm deltaF: 1.7091e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.4853e-19
+	  	                  Norm deltaF: 1.7091e-12
+
+Transient Analysis: [104  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.6315e-06
+	  	                  Norm deltaF: 2.8444e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.0442e-19
+	  	                  Norm deltaF: 2.8444e-12
+
+Transient Analysis: [105  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1094e-05
+	  	                  Norm deltaF: 2.8422e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.0996e-19
+	  	                  Norm deltaF: 3.3436e-12
+
+Transient Analysis: [106  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.3554e-05
+	  	                  Norm deltaF: 1.5505e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.3585e-19
+	  	                  Norm deltaF: 1.5505e-12
+
+Transient Analysis: [107  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.601e-05
+	  	                  Norm deltaF: 3.9267e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.2578e-19
+	  	                  Norm deltaF: 1.8819e-12
+
+Transient Analysis: [108  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.8463e-05
+	  	                  Norm deltaF: 1.7204e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.6411e-19
+	  	                  Norm deltaF: 1.7204e-12
+
+Transient Analysis: [109  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.091e-05
+	  	                  Norm deltaF: 3.5004e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.0817e-19
+	  	                  Norm deltaF: 1.7939e-12
+
+Transient Analysis: [110  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.3353e-05
+	  	                  Norm deltaF: 2.7591e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.1803e-19
+	  	                  Norm deltaF: 2.7403e-12
+
+Transient Analysis: [111  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.579e-05
+	  	                  Norm deltaF: 3.2871e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.9241e-19
+	  	                  Norm deltaF: 1.0785e-12
+
+Transient Analysis: [112  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8221e-05
+	  	                  Norm deltaF: 1.5835e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.1669e-19
+	  	                  Norm deltaF: 1.5835e-12
+
+Transient Analysis: [113  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0644e-05
+	  	                  Norm deltaF: 4.3276e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0506e-18
+	  	                  Norm deltaF: 4.0483e-12
+
+Transient Analysis: [114  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.306e-05
+	  	                  Norm deltaF: 4.8233e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.2211e-18
+	  	                  Norm deltaF: 3.2035e-12
+
+Transient Analysis: [115  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.5468e-05
+	  	                  Norm deltaF: 4.5885e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.8481e-19
+	  	                  Norm deltaF: 4.5389e-12
+
+Transient Analysis: [116  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7868e-05
+	  	                  Norm deltaF: 2.9863e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.2103e-19
+	  	                  Norm deltaF: 3.6398e-12
+
+Transient Analysis: [117  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0257e-05
+	  	                  Norm deltaF: 3.5462e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.046e-19
+	  	                  Norm deltaF: 4.3171e-12
+
+Transient Analysis: [118  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.2637e-05
+	  	                  Norm deltaF: 2.5345e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.0946e-19
+	  	                  Norm deltaF: 2.5345e-12
+
+Transient Analysis: [119  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5007e-05
+	  	                  Norm deltaF: 2.8873e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.7966e-19
+	  	                  Norm deltaF: 3.5022e-12
+
+Transient Analysis: [120  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.7365e-05
+	  	                  Norm deltaF: 3.103e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.9976e-19
+	  	                  Norm deltaF: 2.5974e-12
+
+Transient Analysis: [121  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.9712e-05
+	  	                  Norm deltaF: 3.6681e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.5711e-19
+	  	                  Norm deltaF: 2.5548e-12
+
+Transient Analysis: [122  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.2046e-05
+	  	                  Norm deltaF: 1.5505e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.1196e-19
+	  	                  Norm deltaF: 1.5505e-12
+
+Transient Analysis: [123  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.4367e-05
+	  	                  Norm deltaF: 2.0369e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0773e-19
+	  	                  Norm deltaF: 2.0369e-12
+
+Transient Analysis: [124  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.6675e-05
+	  	                  Norm deltaF: 2.6173e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.639e-19
+	  	                  Norm deltaF: 2.3684e-12
+
+Transient Analysis: [125  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.897e-05
+	  	                  Norm deltaF: 3.0207e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.2765e-19
+	  	                  Norm deltaF: 3.0207e-12
+
+Transient Analysis: [126  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.1249e-05
+	  	                  Norm deltaF: 1.6553e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.51e-19
+	  	                  Norm deltaF: 1.6553e-12
+
+Transient Analysis: [127  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.3513e-05
+	  	                  Norm deltaF: 2.148e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.8028e-19
+	  	                  Norm deltaF: 3.3456e-12
+
+Transient Analysis: [128  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.5762e-05
+	  	                  Norm deltaF: 2.9689e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.0563e-19
+	  	                  Norm deltaF: 3.2832e-12
+
+Transient Analysis: [129  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.7995e-05
+	  	                  Norm deltaF: 6.9153e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.6238e-19
+	  	                  Norm deltaF: 6.9153e-13
+
+Transient Analysis: [130  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.0211e-05
+	  	                  Norm deltaF: 2.2794e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5588e-19
+	  	                  Norm deltaF: 2.2794e-12
+
+Transient Analysis: [131  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.2409e-05
+	  	                  Norm deltaF: 2.2278e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.2215e-19
+	  	                  Norm deltaF: 3.2555e-12
+
+Transient Analysis: [132  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.459e-05
+	  	                  Norm deltaF: 3.7309e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.7828e-19
+	  	                  Norm deltaF: 3.5553e-12
+
+Transient Analysis: [133  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.6752e-05
+	  	                  Norm deltaF: 1.9193e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.0185e-19
+	  	                  Norm deltaF: 1.9193e-12
+
+Transient Analysis: [134  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.8895e-05
+	  	                  Norm deltaF: 3.9069e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.8245e-19
+	  	                  Norm deltaF: 2.0994e-12
+
+Transient Analysis: [135  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.1019e-05
+	  	                  Norm deltaF: 1.7612e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0714e-19
+	  	                  Norm deltaF: 1.7612e-12
+
+Transient Analysis: [136  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.3122e-05
+	  	                  Norm deltaF: 2.5037e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.6203e-19
+	  	                  Norm deltaF: 2.0652e-12
+
+Transient Analysis: [137  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.5206e-05
+	  	                  Norm deltaF: 1.9822e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.2246e-19
+	  	                  Norm deltaF: 2.4515e-12
+
+Transient Analysis: [138  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.7268e-05
+	  	                  Norm deltaF: 2.1238e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.3321e-19
+	  	                  Norm deltaF: 2.1238e-12
+
+Transient Analysis: [139  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.9309e-05
+	  	                  Norm deltaF: 1.5168e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.4781e-19
+	  	                  Norm deltaF: 1.5168e-12
+
+Transient Analysis: [140  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.1327e-05
+	  	                  Norm deltaF: 9.4435e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.8964e-19
+	  	                  Norm deltaF: 9.4435e-13
+
+Transient Analysis: [141  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.3323e-05
+	  	                  Norm deltaF: 1.8646e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.764e-19
+	  	                  Norm deltaF: 1.8646e-12
+
+Transient Analysis: [142  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.5296e-05
+	  	                  Norm deltaF: 1.5629e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.4808e-19
+	  	                  Norm deltaF: 1.5629e-12
+
+Transient Analysis: [143  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.7246e-05
+	  	                  Norm deltaF: 2.1927e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.9906e-19
+	  	                  Norm deltaF: 8.5832e-13
+
+Transient Analysis: [144  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.9172e-05
+	  	                  Norm deltaF: 1.8542e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0801e-19
+	  	                  Norm deltaF: 1.8542e-12
+
+Transient Analysis: [145  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010107
+	  	                  Norm deltaF: 1.1594e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0896e-19
+	  	                  Norm deltaF: 1.1594e-12
+
+Transient Analysis: [146  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010295
+	  	                  Norm deltaF: 2.2851e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.8766e-19
+	  	                  Norm deltaF: 2.2737e-12
+
+Transient Analysis: [147  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001048
+	  	                  Norm deltaF: 1.3737e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.9309e-19
+	  	                  Norm deltaF: 3.3145e-12
+
+Transient Analysis: [148  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010662
+	  	                  Norm deltaF: 3.2356e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.0358e-19
+	  	                  Norm deltaF: 2.6369e-12
+
+Transient Analysis: [149  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010842
+	  	                  Norm deltaF: 8.0389e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.7459e-19
+	  	                  Norm deltaF: 8.0389e-13
+
+Transient Analysis: [150  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001102
+	  	                  Norm deltaF: 2.4117e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.8711e-19
+	  	                  Norm deltaF: 2.0652e-12
+
+Transient Analysis: [151  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011194
+	  	                  Norm deltaF: 2.3547e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.7857e-19
+	  	                  Norm deltaF: 2.1208e-12
+
+Transient Analysis: [152  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011366
+	  	                  Norm deltaF: 2.1116e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.3186e-19
+	  	                  Norm deltaF: 2.849e-12
+
+Transient Analysis: [153  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011535
+	  	                  Norm deltaF: 1.5505e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.3585e-19
+	  	                  Norm deltaF: 2.6418e-12
+
+Transient Analysis: [154  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011701
+	  	                  Norm deltaF: 2.433e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.8779e-19
+	  	                  Norm deltaF: 1.5306e-12
+
+Transient Analysis: [155  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011864
+	  	                  Norm deltaF: 3.2085e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.6062e-19
+	  	                  Norm deltaF: 1.691e-12
+
+Transient Analysis: [156  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012024
+	  	                  Norm deltaF: 1.1369e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.2991e-19
+	  	                  Norm deltaF: 1.1369e-12
+
+Transient Analysis: [157  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012181
+	  	                  Norm deltaF: 1.9327e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.2947e-19
+	  	                  Norm deltaF: 1.8758e-12
+
+Transient Analysis: [158  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012336
+	  	                  Norm deltaF: 1.9335e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.5626e-19
+	  	                  Norm deltaF: 2.0113e-12
+
+Transient Analysis: [159  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012487
+	  	                  Norm deltaF: 1.1211e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.32e-19
+	  	                  Norm deltaF: 1.1211e-12
+
+Transient Analysis: [160  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012635
+	  	                  Norm deltaF: 2.2999e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.7308e-19
+	  	                  Norm deltaF: 2.2921e-12
+
+Transient Analysis: [161  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001278
+	  	                  Norm deltaF: 1.996e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.7718e-19
+	  	                  Norm deltaF: 2.1548e-12
+
+Transient Analysis: [162  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012922
+	  	                  Norm deltaF: 3.759e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.0251e-19
+	  	                  Norm deltaF: 2.4184e-12
+
+Transient Analysis: [163  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013061
+	  	                  Norm deltaF: 9.1657e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.6198e-19
+	  	                  Norm deltaF: 9.1657e-13
+
+Transient Analysis: [164  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013196
+	  	                  Norm deltaF: 1.467e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0548e-19
+	  	                  Norm deltaF: 1.467e-12
+
+Transient Analysis: [165  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013328
+	  	                  Norm deltaF: 3.1186e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.295e-19
+	  	                  Norm deltaF: 1.6078e-12
+
+Transient Analysis: [166  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013457
+	  	                  Norm deltaF: 1.6958e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0492e-19
+	  	                  Norm deltaF: 2.1883e-12
+
+Transient Analysis: [167  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013583
+	  	                  Norm deltaF: 2.2566e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.0722e-19
+	  	                  Norm deltaF: 1.6592e-12
+
+Transient Analysis: [168  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013705
+	  	                  Norm deltaF: 2.1216e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.4928e-19
+	  	                  Norm deltaF: 2.8716e-12
+
+Transient Analysis: [169  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013824
+	  	                  Norm deltaF: 1.4302e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8616e-19
+	  	                  Norm deltaF: 1.4436e-12
+
+Transient Analysis: [170  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013939
+	  	                  Norm deltaF: 1.6524e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.3146e-19
+	  	                  Norm deltaF: 1.3024e-12
+
+Transient Analysis: [171  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014051
+	  	                  Norm deltaF: 1.1937e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.4332e-19
+	  	                  Norm deltaF: 1.726e-12
+
+Transient Analysis: [172  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001416
+	  	                  Norm deltaF: 1.7176e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.7759e-19
+	  	                  Norm deltaF: 1.5306e-12
+
+Transient Analysis: [173  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014265
+	  	                  Norm deltaF: 1.6017e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.3622e-19
+	  	                  Norm deltaF: 1.6573e-12
+
+Transient Analysis: [174  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014366
+	  	                  Norm deltaF: 1.4953e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.9317e-19
+	  	                  Norm deltaF: 1.1211e-12
+
+Transient Analysis: [175  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014464
+	  	                  Norm deltaF: 7.9581e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.6715e-19
+	  	                  Norm deltaF: 7.9581e-13
+
+Transient Analysis: [176  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014559
+	  	                  Norm deltaF: 1.068e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.1512e-19
+	  	                  Norm deltaF: 2.1086e-12
+
+Transient Analysis: [177  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001465
+	  	                  Norm deltaF: 8.9697e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.8437e-19
+	  	                  Norm deltaF: 1.4581e-12
+
+Transient Analysis: [178  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014737
+	  	                  Norm deltaF: 6.5555e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.6108e-19
+	  	                  Norm deltaF: 6.5555e-13
+
+Transient Analysis: [179  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014821
+	  	                  Norm deltaF: 9.0638e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0959e-19
+	  	                  Norm deltaF: 1.3529e-12
+
+Transient Analysis: [180  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.000149
+	  	                  Norm deltaF: 1.1513e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8381e-19
+	  	                  Norm deltaF: 5.9956e-13
+
+Transient Analysis: [181  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014977
+	  	                  Norm deltaF: 3.2778e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.0541e-20
+	  	                  Norm deltaF: 3.2778e-13
+
+Transient Analysis: [182  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015049
+	  	                  Norm deltaF: 4.5563e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.2016e-20
+	  	                  Norm deltaF: 4.5563e-13
+
+Transient Analysis: [183  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015118
+	  	                  Norm deltaF: 1.2663e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.3907e-19
+	  	                  Norm deltaF: 5.1238e-13
+
+Transient Analysis: [184  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015183
+	  	                  Norm deltaF: 5.4522e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.204e-19
+	  	                  Norm deltaF: 5.4522e-13
+
+Transient Analysis: [185  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015245
+	  	                  Norm deltaF: 2.6813e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.5889e-20
+	  	                  Norm deltaF: 2.6813e-13
+
+Transient Analysis: [186  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015302
+	  	                  Norm deltaF: 3.8237e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.6593e-20
+	  	                  Norm deltaF: 3.8237e-13
+
+Transient Analysis: [187  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015356
+	  	                  Norm deltaF: 6.9444e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.4204e-19
+	  	                  Norm deltaF: 6.9444e-13
+
+Transient Analysis: [188  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015406
+	  	                  Norm deltaF: 4.4849e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.2185e-20
+	  	                  Norm deltaF: 4.3384e-13
+
+Transient Analysis: [189  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015452
+	  	                  Norm deltaF: 3.1776e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.4193e-20
+	  	                  Norm deltaF: 3.1776e-13
+
+Transient Analysis: [190  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015495
+	  	                  Norm deltaF: 6.1255e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.5162e-19
+	  	                  Norm deltaF: 4.7643e-13
+
+Transient Analysis: [191  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015533
+	  	                  Norm deltaF: 4.182e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.5838e-20
+	  	                  Norm deltaF: 2.8172e-13
+
+Transient Analysis: [192  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015568
+	  	                  Norm deltaF: 6.178e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.4317e-19
+	  	                  Norm deltaF: 4.523e-13
+
+Transient Analysis: [193  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015599
+	  	                  Norm deltaF: 5.9838e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.3874e-19
+	  	                  Norm deltaF: 2.3177e-13
+
+Transient Analysis: [194  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015626
+	  	                  Norm deltaF: 1.8419e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0578e-20
+	  	                  Norm deltaF: 3.6175e-13
+
+Transient Analysis: [195  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015649
+	  	                  Norm deltaF: 3.316e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.1166e-20
+	  	                  Norm deltaF: 2.3991e-13
+
+Transient Analysis: [196  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015669
+	  	                  Norm deltaF: 2.8297e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.8015e-20
+	  	                  Norm deltaF: 1.5729e-13
+
+Transient Analysis: [197  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015684
+	  	                  Norm deltaF: 1.4665e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.3909e-20
+	  	                  Norm deltaF: 1.5952e-13
+
+Transient Analysis: [198  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015696
+	  	                  Norm deltaF: 9.0158e-14
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.0414e-20
+	  	                  Norm deltaF: 9.278e-14
+
+Transient Analysis: [199  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015703
+	  	                  Norm deltaF: 7.2222e-14
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.4447e-20
+	  	                  Norm deltaF: 5.6621e-14
+
+Transient Analysis: [200  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015707
+	  	                  Norm deltaF: 2.2362e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.6541e-20
+	  	                  Norm deltaF: 1.062e-13
+
+Transient Analysis: [201  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015707
+	  	                  Norm deltaF: 1.3435e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8523e-20
+	  	                  Norm deltaF: 2.7347e-14
+
+Transient Analysis: [202  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015703
+	  	                  Norm deltaF: 1.1911e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.3845e-20
+	  	                  Norm deltaF: 8.5413e-14
+
+Transient Analysis: [203  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015696
+	  	                  Norm deltaF: 2.4377e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.9043e-20
+	  	                  Norm deltaF: 8.9031e-14
+
+Transient Analysis: [204  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015684
+	  	                  Norm deltaF: 2.2244e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.4942e-20
+	  	                  Norm deltaF: 2.8537e-13
+
+Transient Analysis: [205  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015669
+	  	                  Norm deltaF: 3.4846e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.8308e-20
+	  	                  Norm deltaF: 2.1281e-13
+
+Transient Analysis: [206  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015649
+	  	                  Norm deltaF: 5.6164e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1305e-19
+	  	                  Norm deltaF: 3.3539e-13
+
+Transient Analysis: [207  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015626
+	  	                  Norm deltaF: 2.3991e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.8404e-20
+	  	                  Norm deltaF: 2.3991e-13
+
+Transient Analysis: [208  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015599
+	  	                  Norm deltaF: 2.4117e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.1146e-20
+	  	                  Norm deltaF: 2.4117e-13
+
+Transient Analysis: [209  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015568
+	  	                  Norm deltaF: 4.0594e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.1633e-20
+	  	                  Norm deltaF: 4.0194e-13
+
+Transient Analysis: [210  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015533
+	  	                  Norm deltaF: 7.5625e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.0927e-19
+	  	                  Norm deltaF: 3.8237e-13
+
+Transient Analysis: [211  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015495
+	  	                  Norm deltaF: 3.5499e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.5446e-20
+	  	                  Norm deltaF: 4.4122e-13
+
+Transient Analysis: [212  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015452
+	  	                  Norm deltaF: 2.7409e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.4983e-20
+	  	                  Norm deltaF: 2.7409e-13
+
+Transient Analysis: [213  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015406
+	  	                  Norm deltaF: 4.2252e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.5462e-20
+	  	                  Norm deltaF: 4.2252e-13
+
+Transient Analysis: [214  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015356
+	  	                  Norm deltaF: 6.8212e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.406e-19
+	  	                  Norm deltaF: 6.8212e-13
+
+Transient Analysis: [215  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015302
+	  	                  Norm deltaF: 7.0655e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.4233e-19
+	  	                  Norm deltaF: 8.1685e-13
+
+Transient Analysis: [216  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015245
+	  	                  Norm deltaF: 2.1645e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.0254e-20
+	  	                  Norm deltaF: 2.1645e-13
+
+Transient Analysis: [217  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015183
+	  	                  Norm deltaF: 4.865e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0456e-19
+	  	                  Norm deltaF: 4.865e-13
+
+Transient Analysis: [218  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015118
+	  	                  Norm deltaF: 2.494e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.4471e-20
+	  	                  Norm deltaF: 2.494e-13
+
+Transient Analysis: [219  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015049
+	  	                  Norm deltaF: 8.829e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.8504e-19
+	  	                  Norm deltaF: 1.2415e-12
+
+Transient Analysis: [220  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014977
+	  	                  Norm deltaF: 5.8316e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.5784e-19
+	  	                  Norm deltaF: 1.1026e-12
+
+Transient Analysis: [221  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.000149
+	  	                  Norm deltaF: 6.1288e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.739e-19
+	  	                  Norm deltaF: 8.6067e-13
+
+Transient Analysis: [222  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014821
+	  	                  Norm deltaF: 1.9667e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.9416e-19
+	  	                  Norm deltaF: 5.7127e-13
+
+Transient Analysis: [223  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014737
+	  	                  Norm deltaF: 1.0041e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.2527e-19
+	  	                  Norm deltaF: 1.0725e-12
+
+Transient Analysis: [224  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001465
+	  	                  Norm deltaF: 1.4028e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8068e-19
+	  	                  Norm deltaF: 1.1622e-12
+
+Transient Analysis: [225  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014559
+	  	                  Norm deltaF: 7.6263e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.5347e-19
+	  	                  Norm deltaF: 7.6263e-13
+
+Transient Analysis: [226  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014464
+	  	                  Norm deltaF: 1.6178e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.4478e-19
+	  	                  Norm deltaF: 2.1307e-12
+
+Transient Analysis: [227  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014366
+	  	                  Norm deltaF: 1.711e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.9004e-19
+	  	                  Norm deltaF: 1.3796e-12
+
+Transient Analysis: [228  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014265
+	  	                  Norm deltaF: 2.2227e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.791e-19
+	  	                  Norm deltaF: 1.71e-12
+
+Transient Analysis: [229  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001416
+	  	                  Norm deltaF: 1.8278e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.8448e-19
+	  	                  Norm deltaF: 2.1032e-12
+
+Transient Analysis: [230  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014051
+	  	                  Norm deltaF: 1.9601e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.2403e-19
+	  	                  Norm deltaF: 1.1649e-12
+
+Transient Analysis: [231  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013939
+	  	                  Norm deltaF: 1.5253e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.2168e-19
+	  	                  Norm deltaF: 1.5253e-12
+
+Transient Analysis: [232  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013824
+	  	                  Norm deltaF: 1.6078e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.809e-19
+	  	                  Norm deltaF: 1.3512e-12
+
+Transient Analysis: [233  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013705
+	  	                  Norm deltaF: 1.447e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.5418e-19
+	  	                  Norm deltaF: 2.2638e-12
+
+Transient Analysis: [234  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013583
+	  	                  Norm deltaF: 1.7658e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5116e-19
+	  	                  Norm deltaF: 1.6088e-12
+
+Transient Analysis: [235  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013457
+	  	                  Norm deltaF: 1.4614e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.5174e-19
+	  	                  Norm deltaF: 1.91e-12
+
+Transient Analysis: [236  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013328
+	  	                  Norm deltaF: 1.5463e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.451e-19
+	  	                  Norm deltaF: 1.3355e-12
+
+Transient Analysis: [237  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013196
+	  	                  Norm deltaF: 1.2138e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.4514e-19
+	  	                  Norm deltaF: 1.2138e-12
+
+Transient Analysis: [238  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013061
+	  	                  Norm deltaF: 1.3172e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7277e-19
+	  	                  Norm deltaF: 2.3499e-12
+
+Transient Analysis: [239  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012922
+	  	                  Norm deltaF: 1.8208e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0194e-19
+	  	                  Norm deltaF: 1.9559e-12
+
+Transient Analysis: [240  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001278
+	  	                  Norm deltaF: 1.2058e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.6897e-19
+	  	                  Norm deltaF: 1.2058e-12
+
+Transient Analysis: [241  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012635
+	  	                  Norm deltaF: 1.6728e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.1486e-19
+	  	                  Norm deltaF: 2.4914e-12
+
+Transient Analysis: [242  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012487
+	  	                  Norm deltaF: 6.4562e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.294e-19
+	  	                  Norm deltaF: 6.4562e-13
+
+Transient Analysis: [243  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012336
+	  	                  Norm deltaF: 3.4781e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.47e-19
+	  	                  Norm deltaF: 1.7025e-12
+
+Transient Analysis: [244  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012181
+	  	                  Norm deltaF: 8.9697e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.5318e-19
+	  	                  Norm deltaF: 8.9697e-13
+
+Transient Analysis: [245  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012024
+	  	                  Norm deltaF: 8.3736e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.7774e-19
+	  	                  Norm deltaF: 8.3736e-13
+
+Transient Analysis: [246  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011864
+	  	                  Norm deltaF: 1.691e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.3831e-19
+	  	                  Norm deltaF: 1.3889e-12
+
+Transient Analysis: [247  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011701
+	  	                  Norm deltaF: 1.1649e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.4558e-19
+	  	                  Norm deltaF: 1.3642e-12
+
+Transient Analysis: [248  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011535
+	  	                  Norm deltaF: 2.0369e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.6355e-19
+	  	                  Norm deltaF: 2.2879e-12
+
+Transient Analysis: [249  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011366
+	  	                  Norm deltaF: 1.2297e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.6024e-19
+	  	                  Norm deltaF: 1.2297e-12
+
+Transient Analysis: [250  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011194
+	  	                  Norm deltaF: 2.858e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.8759e-19
+	  	                  Norm deltaF: 1.0232e-12
+
+Transient Analysis: [251  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001102
+	  	                  Norm deltaF: 1.6862e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.0385e-19
+	  	                  Norm deltaF: 1.8402e-12
+
+Transient Analysis: [252  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010842
+	  	                  Norm deltaF: 8.0389e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.9045e-19
+	  	                  Norm deltaF: 8.0389e-13
+
+Transient Analysis: [253  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010662
+	  	                  Norm deltaF: 2.5447e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.5492e-19
+	  	                  Norm deltaF: 2.8125e-12
+
+Transient Analysis: [254  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001048
+	  	                  Norm deltaF: 1.438e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.9602e-19
+	  	                  Norm deltaF: 2.0113e-12
+
+Transient Analysis: [255  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010295
+	  	                  Norm deltaF: 3.7396e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.0551e-19
+	  	                  Norm deltaF: 2.3629e-12
+
+Transient Analysis: [256  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010107
+	  	                  Norm deltaF: 4.5275e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0078e-18
+	  	                  Norm deltaF: 3.2236e-12
+
+Transient Analysis: [257  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.9172e-05
+	  	                  Norm deltaF: 2.7332e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.5609e-19
+	  	                  Norm deltaF: 2.136e-12
+
+Transient Analysis: [258  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.7246e-05
+	  	                  Norm deltaF: 2.0241e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.3996e-19
+	  	                  Norm deltaF: 3.8887e-12
+
+Transient Analysis: [259  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.5296e-05
+	  	                  Norm deltaF: 1.8646e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.9148e-19
+	  	                  Norm deltaF: 1.8646e-12
+
+Transient Analysis: [260  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.3323e-05
+	  	                  Norm deltaF: 1.6118e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.4366e-19
+	  	                  Norm deltaF: 1.6118e-12
+
+Transient Analysis: [261  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.1327e-05
+	  	                  Norm deltaF: 1.8367e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.1245e-19
+	  	                  Norm deltaF: 1.8367e-12
+
+Transient Analysis: [262  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.9309e-05
+	  	                  Norm deltaF: 1.2711e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.5478e-19
+	  	                  Norm deltaF: 1.2711e-12
+
+Transient Analysis: [263  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.7268e-05
+	  	                  Norm deltaF: 2.7894e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.7183e-19
+	  	                  Norm deltaF: 4.237e-12
+
+Transient Analysis: [264  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.5206e-05
+	  	                  Norm deltaF: 1.0481e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.596e-19
+	  	                  Norm deltaF: 1.0481e-12
+
+Transient Analysis: [265  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.3122e-05
+	  	                  Norm deltaF: 1.0232e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.3677e-19
+	  	                  Norm deltaF: 1.0232e-12
+
+Transient Analysis: [266  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.1019e-05
+	  	                  Norm deltaF: 2.148e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.4581e-19
+	  	                  Norm deltaF: 2.148e-12
+
+Transient Analysis: [267  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.8895e-05
+	  	                  Norm deltaF: 3.5225e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.1752e-19
+	  	                  Norm deltaF: 2.575e-12
+
+Transient Analysis: [268  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.6752e-05
+	  	                  Norm deltaF: 3.1444e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.7881e-19
+	  	                  Norm deltaF: 2.6049e-12
+
+Transient Analysis: [269  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.459e-05
+	  	                  Norm deltaF: 1.5629e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0355e-19
+	  	                  Norm deltaF: 1.5629e-12
+
+Transient Analysis: [270  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.2409e-05
+	  	                  Norm deltaF: 2.2879e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.9438e-19
+	  	                  Norm deltaF: 2.2879e-12
+
+Transient Analysis: [271  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.0211e-05
+	  	                  Norm deltaF: 3.5897e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.5487e-19
+	  	                  Norm deltaF: 4.1492e-12
+
+Transient Analysis: [272  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.7995e-05
+	  	                  Norm deltaF: 3.4201e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.0693e-19
+	  	                  Norm deltaF: 4.4975e-12
+
+Transient Analysis: [273  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.5762e-05
+	  	                  Norm deltaF: 3.4819e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1802e-18
+	  	                  Norm deltaF: 3.6839e-12
+
+Transient Analysis: [274  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.3513e-05
+	  	                  Norm deltaF: 2.7142e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.9281e-19
+	  	                  Norm deltaF: 2.7142e-12
+
+Transient Analysis: [275  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.1249e-05
+	  	                  Norm deltaF: 1.0785e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.2136e-19
+	  	                  Norm deltaF: 1.0785e-12
+
+Transient Analysis: [276  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.897e-05
+	  	                  Norm deltaF: 1.6277e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.5977e-19
+	  	                  Norm deltaF: 1.6277e-12
+
+Transient Analysis: [277  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.6675e-05
+	  	                  Norm deltaF: 1.2244e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.6532e-19
+	  	                  Norm deltaF: 1.2244e-12
+
+Transient Analysis: [278  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.4367e-05
+	  	                  Norm deltaF: 5.4947e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1724e-18
+	  	                  Norm deltaF: 4.8872e-12
+
+Transient Analysis: [279  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.2046e-05
+	  	                  Norm deltaF: 1.8784e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.3596e-19
+	  	                  Norm deltaF: 1.8784e-12
+
+Transient Analysis: [280  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.9712e-05
+	  	                  Norm deltaF: 3.2336e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.1346e-19
+	  	                  Norm deltaF: 1.9193e-12
+
+Transient Analysis: [281  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.7365e-05
+	  	                  Norm deltaF: 3.422e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.978e-19
+	  	                  Norm deltaF: 2.2538e-12
+
+Transient Analysis: [282  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5007e-05
+	  	                  Norm deltaF: 2.7591e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.4026e-19
+	  	                  Norm deltaF: 2.3465e-12
+
+Transient Analysis: [283  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.2637e-05
+	  	                  Norm deltaF: 2.6222e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.7601e-19
+	  	                  Norm deltaF: 4.3987e-12
+
+Transient Analysis: [284  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0257e-05
+	  	                  Norm deltaF: 2.0746e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.447e-19
+	  	                  Norm deltaF: 3.5114e-12
+
+Transient Analysis: [285  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7868e-05
+	  	                  Norm deltaF: 2.9471e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.0493e-19
+	  	                  Norm deltaF: 3.0014e-12
+
+Transient Analysis: [286  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.5468e-05
+	  	                  Norm deltaF: 2.7871e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.912e-19
+	  	                  Norm deltaF: 3.3763e-12
+
+Transient Analysis: [287  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.306e-05
+	  	                  Norm deltaF: 2.8513e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.3942e-19
+	  	                  Norm deltaF: 5.2308e-12
+
+Transient Analysis: [288  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0644e-05
+	  	                  Norm deltaF: 3.6891e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.925e-19
+	  	                  Norm deltaF: 2.0464e-12
+
+Transient Analysis: [289  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8221e-05
+	  	                  Norm deltaF: 4.069e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0501e-18
+	  	                  Norm deltaF: 2.4515e-12
+
+Transient Analysis: [290  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.579e-05
+	  	                  Norm deltaF: 2.1839e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.2387e-19
+	  	                  Norm deltaF: 3.3494e-12
+
+Transient Analysis: [291  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.3353e-05
+	  	                  Norm deltaF: 4.2003e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.9192e-19
+	  	                  Norm deltaF: 2.5345e-12
+
+Transient Analysis: [292  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.091e-05
+	  	                  Norm deltaF: 3.4819e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.6075e-19
+	  	                  Norm deltaF: 4.3261e-12
+
+Transient Analysis: [293  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.8463e-05
+	  	                  Norm deltaF: 4.0753e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.1939e-19
+	  	                  Norm deltaF: 3.101e-12
+
+Transient Analysis: [294  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.601e-05
+	  	                  Norm deltaF: 4.3514e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.4078e-19
+	  	                  Norm deltaF: 3.5169e-12
+
+Transient Analysis: [295  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.3554e-05
+	  	                  Norm deltaF: 4.6736e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0817e-18
+	  	                  Norm deltaF: 3.568e-12
+
+Transient Analysis: [296  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1094e-05
+	  	                  Norm deltaF: 2.8626e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.2352e-19
+	  	                  Norm deltaF: 1.8331e-12
+
+Transient Analysis: [297  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.6315e-06
+	  	                  Norm deltaF: 1.7053e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.472e-19
+	  	                  Norm deltaF: 1.7053e-12
+
+Transient Analysis: [298  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.1669e-06
+	  	                  Norm deltaF: 1.7166e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.1787e-19
+	  	                  Norm deltaF: 1.7166e-12
+
+Transient Analysis: [299  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7007e-06
+	  	                  Norm deltaF: 1.4559e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.226e-19
+	  	                  Norm deltaF: 1.4559e-12
+
+Transient Analysis: [300  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.2337e-06
+	  	                  Norm deltaF: 1.1369e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.2991e-19
+	  	                  Norm deltaF: 1.1369e-12
+
+Transient Analysis: [301  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.2337e-06
+	  	                  Norm deltaF: 1.4559e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.226e-19
+	  	                  Norm deltaF: 1.4559e-12
+
+Transient Analysis: [302  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7007e-06
+	  	                  Norm deltaF: 5.5427e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.2134e-18
+	  	                  Norm deltaF: 1.7166e-12
+
+Transient Analysis: [303  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.1669e-06
+	  	                  Norm deltaF: 1.7053e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.472e-19
+	  	                  Norm deltaF: 1.7053e-12
+
+Transient Analysis: [304  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.6315e-06
+	  	                  Norm deltaF: 3.1341e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.4144e-19
+	  	                  Norm deltaF: 1.8331e-12
+
+Transient Analysis: [305  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1094e-05
+	  	                  Norm deltaF: 3.568e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.2348e-19
+	  	                  Norm deltaF: 4.428e-12
+
+Transient Analysis: [306  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.3554e-05
+	  	                  Norm deltaF: 1.9193e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.8423e-19
+	  	                  Norm deltaF: 1.9193e-12
+
+Transient Analysis: [307  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.601e-05
+	  	                  Norm deltaF: 2.3547e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.7123e-19
+	  	                  Norm deltaF: 2.3547e-12
+
+Transient Analysis: [308  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.8463e-05
+	  	                  Norm deltaF: 2.4725e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.7289e-19
+	  	                  Norm deltaF: 3.025e-12
+
+Transient Analysis: [309  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.091e-05
+	  	                  Norm deltaF: 2.9295e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.9805e-19
+	  	                  Norm deltaF: 3.1197e-12
+
+Transient Analysis: [310  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.3353e-05
+	  	                  Norm deltaF: 1.8083e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.6206e-19
+	  	                  Norm deltaF: 1.8083e-12
+
+Transient Analysis: [311  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.579e-05
+	  	                  Norm deltaF: 1.0725e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.334e-19
+	  	                  Norm deltaF: 1.0725e-12
+
+Transient Analysis: [312  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8221e-05
+	  	                  Norm deltaF: 1.6747e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.4558e-19
+	  	                  Norm deltaF: 1.6747e-12
+
+Transient Analysis: [313  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0644e-05
+	  	                  Norm deltaF: 3.101e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.0742e-19
+	  	                  Norm deltaF: 2.1868e-12
+
+Transient Analysis: [314  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.306e-05
+	  	                  Norm deltaF: 1.8331e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.682e-19
+	  	                  Norm deltaF: 1.8331e-12
+
+Transient Analysis: [315  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.5468e-05
+	  	                  Norm deltaF: 1.5463e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.7257e-19
+	  	                  Norm deltaF: 1.5463e-12
+
+Transient Analysis: [316  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7868e-05
+	  	                  Norm deltaF: 4.8885e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.814e-19
+	  	                  Norm deltaF: 2.7497e-12
+
+Transient Analysis: [317  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0257e-05
+	  	                  Norm deltaF: 2.2307e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.1716e-19
+	  	                  Norm deltaF: 5.0549e-12
+
+Transient Analysis: [318  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.2637e-05
+	  	                  Norm deltaF: 6.1222e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.2362e-19
+	  	                  Norm deltaF: 6.1222e-13
+
+Transient Analysis: [319  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5007e-05
+	  	                  Norm deltaF: 1.2085e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.423e-19
+	  	                  Norm deltaF: 1.2085e-12
+
+Transient Analysis: [320  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.7365e-05
+	  	                  Norm deltaF: 1.4062e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8584e-19
+	  	                  Norm deltaF: 1.4062e-12
+
+Transient Analysis: [321  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.9712e-05
+	  	                  Norm deltaF: 4.237e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.6113e-19
+	  	                  Norm deltaF: 4.5318e-12
+
+Transient Analysis: [322  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.2046e-05
+	  	                  Norm deltaF: 1.5505e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.9103e-19
+	  	                  Norm deltaF: 1.5505e-12
+
+Transient Analysis: [323  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.4367e-05
+	  	                  Norm deltaF: 6.5308e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.0127e-19
+	  	                  Norm deltaF: 6.5308e-13
+
+Transient Analysis: [324  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.6675e-05
+	  	                  Norm deltaF: 3.6751e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.6678e-19
+	  	                  Norm deltaF: 1.369e-12
+
+Transient Analysis: [325  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.897e-05
+	  	                  Norm deltaF: 1.4016e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.468e-19
+	  	                  Norm deltaF: 1.4016e-12
+
+Transient Analysis: [326  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.1249e-05
+	  	                  Norm deltaF: 1.8887e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.863e-19
+	  	                  Norm deltaF: 1.8887e-12
+
+Transient Analysis: [327  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.3513e-05
+	  	                  Norm deltaF: 4.8032e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0373e-18
+	  	                  Norm deltaF: 1.7166e-12
+
+Transient Analysis: [328  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.5762e-05
+	  	                  Norm deltaF: 8.1981e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.6746e-19
+	  	                  Norm deltaF: 8.1981e-13
+
+Transient Analysis: [329  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.7995e-05
+	  	                  Norm deltaF: 1.7391e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.4169e-19
+	  	                  Norm deltaF: 1.7391e-12
+
+Transient Analysis: [330  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.0211e-05
+	  	                  Norm deltaF: 2.9841e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.086e-19
+	  	                  Norm deltaF: 3.6522e-12
+
+Transient Analysis: [331  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.2409e-05
+	  	                  Norm deltaF: 2.0241e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.46e-19
+	  	                  Norm deltaF: 2.0241e-12
+
+Transient Analysis: [332  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.459e-05
+	  	                  Norm deltaF: 2.4751e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.8211e-19
+	  	                  Norm deltaF: 3.6891e-12
+
+Transient Analysis: [333  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.6752e-05
+	  	                  Norm deltaF: 1.9427e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0172e-19
+	  	                  Norm deltaF: 1.9427e-12
+
+Transient Analysis: [334  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.8895e-05
+	  	                  Norm deltaF: 1.6592e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.3228e-19
+	  	                  Norm deltaF: 1.6592e-12
+
+Transient Analysis: [335  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.1019e-05
+	  	                  Norm deltaF: 1.4062e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.9383e-19
+	  	                  Norm deltaF: 1.4062e-12
+
+Transient Analysis: [336  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.3122e-05
+	  	                  Norm deltaF: 1.3111e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.4306e-19
+	  	                  Norm deltaF: 1.3111e-12
+
+Transient Analysis: [337  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.5206e-05
+	  	                  Norm deltaF: 1.4062e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.3783e-19
+	  	                  Norm deltaF: 1.4062e-12
+
+Transient Analysis: [338  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.7268e-05
+	  	                  Norm deltaF: 1.6592e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.4257e-19
+	  	                  Norm deltaF: 1.6592e-12
+
+Transient Analysis: [339  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.9309e-05
+	  	                  Norm deltaF: 3.5298e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.7117e-19
+	  	                  Norm deltaF: 2.8873e-12
+
+Transient Analysis: [340  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.1327e-05
+	  	                  Norm deltaF: 2.6759e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.8809e-19
+	  	                  Norm deltaF: 3.1771e-12
+
+Transient Analysis: [341  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.3323e-05
+	  	                  Norm deltaF: 4.0706e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.3933e-19
+	  	                  Norm deltaF: 2.595e-12
+
+Transient Analysis: [342  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.5296e-05
+	  	                  Norm deltaF: 4.9241e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0796e-18
+	  	                  Norm deltaF: 1.8507e-12
+
+Transient Analysis: [343  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.7246e-05
+	  	                  Norm deltaF: 1.8542e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.2333e-19
+	  	                  Norm deltaF: 2.7847e-12
+
+Transient Analysis: [344  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.9172e-05
+	  	                  Norm deltaF: 1.7091e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.9816e-19
+	  	                  Norm deltaF: 2.6638e-12
+
+Transient Analysis: [345  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010107
+	  	                  Norm deltaF: 1.7354e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.508e-19
+	  	                  Norm deltaF: 2.139e-12
+
+Transient Analysis: [346  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010295
+	  	                  Norm deltaF: 2.163e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.7208e-19
+	  	                  Norm deltaF: 1.6553e-12
+
+Transient Analysis: [347  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001048
+	  	                  Norm deltaF: 2.5166e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.313e-19
+	  	                  Norm deltaF: 8.5832e-13
+
+Transient Analysis: [348  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010662
+	  	                  Norm deltaF: 1.5125e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7475e-19
+	  	                  Norm deltaF: 7.3677e-13
+
+Transient Analysis: [349  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010842
+	  	                  Norm deltaF: 1.2557e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8566e-19
+	  	                  Norm deltaF: 1.266e-12
+
+Transient Analysis: [350  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001102
+	  	                  Norm deltaF: 2.7591e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.6453e-19
+	  	                  Norm deltaF: 1.7053e-12
+
+Transient Analysis: [351  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011194
+	  	                  Norm deltaF: 9.1657e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.3886e-19
+	  	                  Norm deltaF: 9.1657e-13
+
+Transient Analysis: [352  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011366
+	  	                  Norm deltaF: 1.0725e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.334e-19
+	  	                  Norm deltaF: 1.0785e-12
+
+Transient Analysis: [353  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011535
+	  	                  Norm deltaF: 2.4117e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.274e-19
+	  	                  Norm deltaF: 1.8784e-12
+
+Transient Analysis: [354  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011701
+	  	                  Norm deltaF: 1.479e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0174e-19
+	  	                  Norm deltaF: 1.479e-12
+
+Transient Analysis: [355  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011864
+	  	                  Norm deltaF: 8.8428e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8321e-19
+	  	                  Norm deltaF: 8.8428e-13
+
+Transient Analysis: [356  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012024
+	  	                  Norm deltaF: 2.148e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.8321e-19
+	  	                  Norm deltaF: 1.1153e-12
+
+Transient Analysis: [357  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012181
+	  	                  Norm deltaF: 2.1124e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.8089e-19
+	  	                  Norm deltaF: 6.5308e-13
+
+Transient Analysis: [358  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012336
+	  	                  Norm deltaF: 1.2058e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.9515e-19
+	  	                  Norm deltaF: 1.3737e-12
+
+Transient Analysis: [359  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012487
+	  	                  Norm deltaF: 1.3452e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8775e-19
+	  	                  Norm deltaF: 1.3452e-12
+
+Transient Analysis: [360  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012635
+	  	                  Norm deltaF: 6.6776e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.3463e-19
+	  	                  Norm deltaF: 6.6776e-13
+
+Transient Analysis: [361  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001278
+	  	                  Norm deltaF: 1.9435e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.515e-19
+	  	                  Norm deltaF: 8.1387e-13
+
+Transient Analysis: [362  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012922
+	  	                  Norm deltaF: 1.4313e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8626e-19
+	  	                  Norm deltaF: 1.4313e-12
+
+Transient Analysis: [363  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013061
+	  	                  Norm deltaF: 1.5253e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0695e-19
+	  	                  Norm deltaF: 1.5253e-12
+
+Transient Analysis: [364  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013196
+	  	                  Norm deltaF: 1.5763e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.5429e-19
+	  	                  Norm deltaF: 1.3547e-12
+
+Transient Analysis: [365  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013328
+	  	                  Norm deltaF: 9.2534e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.4572e-19
+	  	                  Norm deltaF: 1.8128e-12
+
+Transient Analysis: [366  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013457
+	  	                  Norm deltaF: 1.7053e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.4148e-19
+	  	                  Norm deltaF: 1.4659e-12
+
+Transient Analysis: [367  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013583
+	  	                  Norm deltaF: 1.6747e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.4558e-19
+	  	                  Norm deltaF: 2.1638e-12
+
+Transient Analysis: [368  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013705
+	  	                  Norm deltaF: 1.2887e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.9148e-19
+	  	                  Norm deltaF: 1.2887e-12
+
+Transient Analysis: [369  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013824
+	  	                  Norm deltaF: 1.9268e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.877e-19
+	  	                  Norm deltaF: 1.0904e-12
+
+Transient Analysis: [370  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013939
+	  	                  Norm deltaF: 1.491e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0013e-19
+	  	                  Norm deltaF: 1.5804e-12
+
+Transient Analysis: [371  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014051
+	  	                  Norm deltaF: 1.1608e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0362e-19
+	  	                  Norm deltaF: 1.7204e-12
+
+Transient Analysis: [372  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001416
+	  	                  Norm deltaF: 1.5474e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.2946e-19
+	  	                  Norm deltaF: 1.6494e-12
+
+Transient Analysis: [373  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014265
+	  	                  Norm deltaF: 1.2098e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0078e-19
+	  	                  Norm deltaF: 2.139e-12
+
+Transient Analysis: [374  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014366
+	  	                  Norm deltaF: 1.8611e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7378e-19
+	  	                  Norm deltaF: 1.1869e-12
+
+Transient Analysis: [375  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014464
+	  	                  Norm deltaF: 1.5681e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.3255e-19
+	  	                  Norm deltaF: 6.1222e-13
+
+Transient Analysis: [376  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014559
+	  	                  Norm deltaF: 1.5253e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0695e-19
+	  	                  Norm deltaF: 7.8765e-13
+
+Transient Analysis: [377  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001465
+	  	                  Norm deltaF: 5.7127e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1457e-19
+	  	                  Norm deltaF: 5.7127e-13
+
+Transient Analysis: [378  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014737
+	  	                  Norm deltaF: 8.9517e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.7156e-19
+	  	                  Norm deltaF: 6.3553e-13
+
+Transient Analysis: [379  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014821
+	  	                  Norm deltaF: 4.0395e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0037e-19
+	  	                  Norm deltaF: 4.0395e-13
+
+Transient Analysis: [380  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.000149
+	  	                  Norm deltaF: 7.9225e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.6521e-19
+	  	                  Norm deltaF: 1.7594e-12
+
+Transient Analysis: [381  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014977
+	  	                  Norm deltaF: 3.7706e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.1063e-20
+	  	                  Norm deltaF: 3.7706e-13
+
+Transient Analysis: [382  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015049
+	  	                  Norm deltaF: 7.4169e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.4986e-19
+	  	                  Norm deltaF: 1.1269e-12
+
+Transient Analysis: [383  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015118
+	  	                  Norm deltaF: 9.1877e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.9747e-19
+	  	                  Norm deltaF: 7.6739e-13
+
+Transient Analysis: [384  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015183
+	  	                  Norm deltaF: 8.2227e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.655e-19
+	  	                  Norm deltaF: 8.0439e-13
+
+Transient Analysis: [385  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015245
+	  	                  Norm deltaF: 6.1288e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.5167e-19
+	  	                  Norm deltaF: 8.8974e-13
+
+Transient Analysis: [386  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015302
+	  	                  Norm deltaF: 4.2252e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.5462e-20
+	  	                  Norm deltaF: 4.2252e-13
+
+Transient Analysis: [387  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015356
+	  	                  Norm deltaF: 9.862e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0277e-19
+	  	                  Norm deltaF: 6.2334e-13
+
+Transient Analysis: [388  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015406
+	  	                  Norm deltaF: 2.8136e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.8788e-20
+	  	                  Norm deltaF: 6.927e-13
+
+Transient Analysis: [389  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015452
+	  	                  Norm deltaF: 3.6508e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.1594e-20
+	  	                  Norm deltaF: 3.0743e-13
+
+Transient Analysis: [390  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015495
+	  	                  Norm deltaF: 2.6548e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.5144e-20
+	  	                  Norm deltaF: 2.6548e-13
+
+Transient Analysis: [391  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015533
+	  	                  Norm deltaF: 5.0464e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.513e-19
+	  	                  Norm deltaF: 3.3928e-13
+
+Transient Analysis: [392  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015568
+	  	                  Norm deltaF: 5.2561e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1049e-19
+	  	                  Norm deltaF: 3.979e-13
+
+Transient Analysis: [393  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015599
+	  	                  Norm deltaF: 4.7728e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0134e-19
+	  	                  Norm deltaF: 4.4328e-13
+
+Transient Analysis: [394  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015626
+	  	                  Norm deltaF: 2.2958e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5966e-20
+	  	                  Norm deltaF: 1.6327e-13
+
+Transient Analysis: [395  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015649
+	  	                  Norm deltaF: 3.6955e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.721e-20
+	  	                  Norm deltaF: 2.5864e-13
+
+Transient Analysis: [396  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015669
+	  	                  Norm deltaF: 3.2108e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0157e-19
+	  	                  Norm deltaF: 2.1645e-13
+
+Transient Analysis: [397  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015684
+	  	                  Norm deltaF: 1.6109e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.1682e-20
+	  	                  Norm deltaF: 7.6528e-14
+
+Transient Analysis: [398  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015696
+	  	                  Norm deltaF: 2.661e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.3262e-20
+	  	                  Norm deltaF: 7.952e-14
+
+Transient Analysis: [399  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015703
+	  	                  Norm deltaF: 2.0716e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.4117e-20
+	  	                  Norm deltaF: 5.4607e-14
+
+Transient Analysis: [400  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015707
+	  	                  Norm deltaF: 9.8312e-14
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.3286e-20
+	  	                  Norm deltaF: 6.9324e-14
+
+Transient Analysis: [401  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015707
+	  	                  Norm deltaF: 1.4433e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0763e-20
+	  	                  Norm deltaF: 6.3801e-14
+
+Transient Analysis: [402  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015703
+	  	                  Norm deltaF: 1.4892e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.1003e-20
+	  	                  Norm deltaF: 8.7168e-14
+
+Transient Analysis: [403  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015696
+	  	                  Norm deltaF: 2.7866e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.2213e-20
+	  	                  Norm deltaF: 1.8906e-13
+
+Transient Analysis: [404  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015684
+	  	                  Norm deltaF: 4.3221e-14
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.2897e-20
+	  	                  Norm deltaF: 4.3221e-14
+
+Transient Analysis: [405  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015669
+	  	                  Norm deltaF: 3.3183e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.707e-20
+	  	                  Norm deltaF: 2.3232e-13
+
+Transient Analysis: [406  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015649
+	  	                  Norm deltaF: 2.2914e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.7572e-20
+	  	                  Norm deltaF: 1.0729e-13
+
+Transient Analysis: [407  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015626
+	  	                  Norm deltaF: 3.4577e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.1189e-20
+	  	                  Norm deltaF: 5.302e-13
+
+Transient Analysis: [408  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015599
+	  	                  Norm deltaF: 5.3814e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1288e-19
+	  	                  Norm deltaF: 2.5461e-13
+
+Transient Analysis: [409  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015568
+	  	                  Norm deltaF: 1.7053e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.5151e-20
+	  	                  Norm deltaF: 1.7053e-13
+
+Transient Analysis: [410  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015533
+	  	                  Norm deltaF: 5.4818e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.5573e-19
+	  	                  Norm deltaF: 2.3652e-13
+
+Transient Analysis: [411  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015495
+	  	                  Norm deltaF: 3.0743e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.2796e-20
+	  	                  Norm deltaF: 3.0743e-13
+
+Transient Analysis: [412  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015452
+	  	                  Norm deltaF: 3.5041e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.7907e-20
+	  	                  Norm deltaF: 6.5617e-13
+
+Transient Analysis: [413  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015406
+	  	                  Norm deltaF: 4.1964e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.4358e-20
+	  	                  Norm deltaF: 4.1964e-13
+
+Transient Analysis: [414  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015356
+	  	                  Norm deltaF: 7.1508e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.566e-19
+	  	                  Norm deltaF: 1.2685e-12
+
+Transient Analysis: [415  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015302
+	  	                  Norm deltaF: 5.0363e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.4342e-19
+	  	                  Norm deltaF: 6.2592e-13
+
+Transient Analysis: [416  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015245
+	  	                  Norm deltaF: 9.8988e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.1077e-19
+	  	                  Norm deltaF: 9.8538e-13
+
+Transient Analysis: [417  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015183
+	  	                  Norm deltaF: 8.8974e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.9057e-19
+	  	                  Norm deltaF: 1.1705e-12
+
+Transient Analysis: [418  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015118
+	  	                  Norm deltaF: 6.6836e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.3535e-19
+	  	                  Norm deltaF: 8.6207e-13
+
+Transient Analysis: [419  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00015049
+	  	                  Norm deltaF: 9.8333e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.2775e-19
+	  	                  Norm deltaF: 2.9124e-13
+
+Transient Analysis: [420  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014977
+	  	                  Norm deltaF: 1.3666e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7396e-19
+	  	                  Norm deltaF: 9.6843e-13
+
+Transient Analysis: [421  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.000149
+	  	                  Norm deltaF: 7.9276e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.8411e-19
+	  	                  Norm deltaF: 6.5122e-13
+
+Transient Analysis: [422  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014821
+	  	                  Norm deltaF: 9.3057e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8908e-19
+	  	                  Norm deltaF: 1.3416e-12
+
+Transient Analysis: [423  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014737
+	  	                  Norm deltaF: 1.0295e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.4682e-19
+	  	                  Norm deltaF: 4.1383e-13
+
+Transient Analysis: [424  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001465
+	  	                  Norm deltaF: 1.4347e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.9305e-19
+	  	                  Norm deltaF: 1.1842e-12
+
+Transient Analysis: [425  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014559
+	  	                  Norm deltaF: 9.5287e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8558e-19
+	  	                  Norm deltaF: 1.4028e-12
+
+Transient Analysis: [426  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014464
+	  	                  Norm deltaF: 2.2059e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.1842e-19
+	  	                  Norm deltaF: 1.9293e-12
+
+Transient Analysis: [427  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014366
+	  	                  Norm deltaF: 1.8349e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7324e-19
+	  	                  Norm deltaF: 1.7474e-12
+
+Transient Analysis: [428  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014265
+	  	                  Norm deltaF: 2.0081e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5054e-19
+	  	                  Norm deltaF: 1.1815e-12
+
+Transient Analysis: [429  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001416
+	  	                  Norm deltaF: 1.5007e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.2614e-19
+	  	                  Norm deltaF: 2.0621e-12
+
+Transient Analysis: [430  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00014051
+	  	                  Norm deltaF: 2.1816e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5967e-19
+	  	                  Norm deltaF: 1.5598e-12
+
+Transient Analysis: [431  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013939
+	  	                  Norm deltaF: 1.7695e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.8906e-19
+	  	                  Norm deltaF: 2.1698e-12
+
+Transient Analysis: [432  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013824
+	  	                  Norm deltaF: 2.2794e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.4921e-19
+	  	                  Norm deltaF: 1.4039e-12
+
+Transient Analysis: [433  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013705
+	  	                  Norm deltaF: 1.4028e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8171e-19
+	  	                  Norm deltaF: 1.0964e-12
+
+Transient Analysis: [434  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013583
+	  	                  Norm deltaF: 1.3749e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.6943e-19
+	  	                  Norm deltaF: 2.1698e-12
+
+Transient Analysis: [435  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013457
+	  	                  Norm deltaF: 1.1649e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.7881e-19
+	  	                  Norm deltaF: 1.0232e-12
+
+Transient Analysis: [436  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013328
+	  	                  Norm deltaF: 2.1698e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.347e-19
+	  	                  Norm deltaF: 3.0431e-12
+
+Transient Analysis: [437  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013196
+	  	                  Norm deltaF: 1.7335e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.5332e-19
+	  	                  Norm deltaF: 1.8234e-12
+
+Transient Analysis: [438  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00013061
+	  	                  Norm deltaF: 1.2711e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8073e-19
+	  	                  Norm deltaF: 1.2711e-12
+
+Transient Analysis: [439  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012922
+	  	                  Norm deltaF: 9.9922e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.7969e-19
+	  	                  Norm deltaF: 2.7859e-12
+
+Transient Analysis: [440  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001278
+	  	                  Norm deltaF: 1.9625e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.278e-19
+	  	                  Norm deltaF: 1.4039e-12
+
+Transient Analysis: [441  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012635
+	  	                  Norm deltaF: 6.4311e-13
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.8728e-19
+	  	                  Norm deltaF: 6.4311e-13
+
+Transient Analysis: [442  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012487
+	  	                  Norm deltaF: 1.3476e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.4866e-19
+	  	                  Norm deltaF: 2.514e-12
+
+Transient Analysis: [443  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012336
+	  	                  Norm deltaF: 2.2638e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.116e-19
+	  	                  Norm deltaF: 1.1022e-12
+
+Transient Analysis: [444  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012181
+	  	                  Norm deltaF: 2.1757e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5855e-19
+	  	                  Norm deltaF: 1.996e-12
+
+Transient Analysis: [445  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00012024
+	  	                  Norm deltaF: 1.1397e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.297e-19
+	  	                  Norm deltaF: 2.6382e-12
+
+Transient Analysis: [446  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011864
+	  	                  Norm deltaF: 2.6473e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.3768e-19
+	  	                  Norm deltaF: 1.4964e-12
+
+Transient Analysis: [447  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011701
+	  	                  Norm deltaF: 2.1839e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.0587e-19
+	  	                  Norm deltaF: 1.5463e-12
+
+Transient Analysis: [448  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011535
+	  	                  Norm deltaF: 1.4779e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.9053e-19
+	  	                  Norm deltaF: 2.7801e-12
+
+Transient Analysis: [449  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011366
+	  	                  Norm deltaF: 1.0725e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.2049e-19
+	  	                  Norm deltaF: 1.0725e-12
+
+Transient Analysis: [450  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00011194
+	  	                  Norm deltaF: 2.1927e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.7039e-19
+	  	                  Norm deltaF: 1.9984e-12
+
+Transient Analysis: [451  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001102
+	  	                  Norm deltaF: 1.0725e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.1518e-19
+	  	                  Norm deltaF: 1.0725e-12
+
+Transient Analysis: [452  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010842
+	  	                  Norm deltaF: 4.069e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.6979e-19
+	  	                  Norm deltaF: 8.0389e-13
+
+Transient Analysis: [453  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010662
+	  	                  Norm deltaF: 2.4515e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.0456e-19
+	  	                  Norm deltaF: 1.9887e-12
+
+Transient Analysis: [454  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.0001048
+	  	                  Norm deltaF: 1.3642e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.3618e-19
+	  	                  Norm deltaF: 3.2236e-12
+
+Transient Analysis: [455  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010295
+	  	                  Norm deltaF: 1.8819e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.3083e-19
+	  	                  Norm deltaF: 2.4117e-12
+
+Transient Analysis: [456  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 0.00010107
+	  	                  Norm deltaF: 1.3737e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.423e-19
+	  	                  Norm deltaF: 2.3104e-12
+
+Transient Analysis: [457  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.9172e-05
+	  	                  Norm deltaF: 3.5608e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.5053e-19
+	  	                  Norm deltaF: 2.3982e-12
+
+Transient Analysis: [458  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.7246e-05
+	  	                  Norm deltaF: 3.3916e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.9151e-19
+	  	                  Norm deltaF: 2.145e-12
+
+Transient Analysis: [459  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.5296e-05
+	  	                  Norm deltaF: 2.4117e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.9302e-19
+	  	                  Norm deltaF: 3.8402e-12
+
+Transient Analysis: [460  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.3323e-05
+	  	                  Norm deltaF: 1.5421e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.3713e-19
+	  	                  Norm deltaF: 1.5421e-12
+
+Transient Analysis: [461  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.1327e-05
+	  	                  Norm deltaF: 2.6831e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.3904e-19
+	  	                  Norm deltaF: 3.4333e-12
+
+Transient Analysis: [462  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.9309e-05
+	  	                  Norm deltaF: 2.4725e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.4821e-19
+	  	                  Norm deltaF: 2.3901e-12
+
+Transient Analysis: [463  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.7268e-05
+	  	                  Norm deltaF: 2.8513e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.2476e-19
+	  	                  Norm deltaF: 2.7379e-12
+
+Transient Analysis: [464  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.5206e-05
+	  	                  Norm deltaF: 1.1649e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.6167e-19
+	  	                  Norm deltaF: 1.1649e-12
+
+Transient Analysis: [465  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.3122e-05
+	  	                  Norm deltaF: 3.8402e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.9926e-19
+	  	                  Norm deltaF: 2.4751e-12
+
+Transient Analysis: [466  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.1019e-05
+	  	                  Norm deltaF: 2.654e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.3326e-19
+	  	                  Norm deltaF: 3.5987e-12
+
+Transient Analysis: [467  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.8895e-05
+	  	                  Norm deltaF: 3.6804e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.1093e-19
+	  	                  Norm deltaF: 2.0994e-12
+
+Transient Analysis: [468  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.6752e-05
+	  	                  Norm deltaF: 2.2423e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.8594e-19
+	  	                  Norm deltaF: 2.2423e-12
+
+Transient Analysis: [469  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.459e-05
+	  	                  Norm deltaF: 4.3141e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.7349e-19
+	  	                  Norm deltaF: 1.6118e-12
+
+Transient Analysis: [470  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.2409e-05
+	  	                  Norm deltaF: 1.9855e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.5752e-19
+	  	                  Norm deltaF: 2.5421e-12
+
+Transient Analysis: [471  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.0211e-05
+	  	                  Norm deltaF: 1.9952e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.1189e-19
+	  	                  Norm deltaF: 1.9952e-12
+
+Transient Analysis: [472  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.7995e-05
+	  	                  Norm deltaF: 2.3327e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.4893e-19
+	  	                  Norm deltaF: 1.8887e-12
+
+Transient Analysis: [473  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.5762e-05
+	  	                  Norm deltaF: 1.9952e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.0303e-19
+	  	                  Norm deltaF: 2.9646e-12
+
+Transient Analysis: [474  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.3513e-05
+	  	                  Norm deltaF: 2.6345e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.3372e-19
+	  	                  Norm deltaF: 1.9327e-12
+
+Transient Analysis: [475  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.1249e-05
+	  	                  Norm deltaF: 3.078e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.8051e-19
+	  	                  Norm deltaF: 2.7661e-12
+
+Transient Analysis: [476  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.897e-05
+	  	                  Norm deltaF: 1.2244e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.4724e-19
+	  	                  Norm deltaF: 1.2244e-12
+
+Transient Analysis: [477  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.6675e-05
+	  	                  Norm deltaF: 4.3677e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.2678e-18
+	  	                  Norm deltaF: 3.7101e-12
+
+Transient Analysis: [478  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.4367e-05
+	  	                  Norm deltaF: 4.0499e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.3119e-19
+	  	                  Norm deltaF: 3.3204e-12
+
+Transient Analysis: [479  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.2046e-05
+	  	                  Norm deltaF: 4.3514e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1819e-18
+	  	                  Norm deltaF: 2.2794e-12
+
+Transient Analysis: [480  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.9712e-05
+	  	                  Norm deltaF: 4.9004e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0011e-18
+	  	                  Norm deltaF: 2.894e-12
+
+Transient Analysis: [481  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.7365e-05
+	  	                  Norm deltaF: 2.9162e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.215e-19
+	  	                  Norm deltaF: 3.437e-12
+
+Transient Analysis: [482  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5007e-05
+	  	                  Norm deltaF: 4.3036e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.2967e-18
+	  	                  Norm deltaF: 5.1499e-12
+
+Transient Analysis: [483  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.2637e-05
+	  	                  Norm deltaF: 3.0926e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.6281e-19
+	  	                  Norm deltaF: 3.0926e-12
+
+Transient Analysis: [484  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.0257e-05
+	  	                  Norm deltaF: 3.3417e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.2166e-19
+	  	                  Norm deltaF: 2.514e-12
+
+Transient Analysis: [485  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7868e-05
+	  	                  Norm deltaF: 4.1006e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 9.4003e-19
+	  	                  Norm deltaF: 4.2172e-12
+
+Transient Analysis: [486  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.5468e-05
+	  	                  Norm deltaF: 2.6735e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.4142e-19
+	  	                  Norm deltaF: 2.6735e-12
+
+Transient Analysis: [487  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.306e-05
+	  	                  Norm deltaF: 3.0947e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.5728e-19
+	  	                  Norm deltaF: 3.3571e-12
+
+Transient Analysis: [488  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.0644e-05
+	  	                  Norm deltaF: 4.2233e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0238e-18
+	  	                  Norm deltaF: 2.5548e-12
+
+Transient Analysis: [489  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.8221e-05
+	  	                  Norm deltaF: 2.2851e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.5828e-19
+	  	                  Norm deltaF: 2.2851e-12
+
+Transient Analysis: [490  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.579e-05
+	  	                  Norm deltaF: 3.422e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.5379e-19
+	  	                  Norm deltaF: 3.3514e-12
+
+Transient Analysis: [491  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.3353e-05
+	  	                  Norm deltaF: 2.3299e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 4.7703e-19
+	  	                  Norm deltaF: 2.3299e-12
+
+Transient Analysis: [492  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 2.091e-05
+	  	                  Norm deltaF: 2.7847e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.1993e-19
+	  	                  Norm deltaF: 3.5969e-12
+
+Transient Analysis: [493  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.8463e-05
+	  	                  Norm deltaF: 3.2733e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.6017e-19
+	  	                  Norm deltaF: 3.3514e-12
+
+Transient Analysis: [494  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.601e-05
+	  	                  Norm deltaF: 4.3677e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.8996e-19
+	  	                  Norm deltaF: 4.5261e-12
+
+Transient Analysis: [495  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.3554e-05
+	  	                  Norm deltaF: 3.2475e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.3326e-19
+	  	                  Norm deltaF: 2.5974e-12
+
+Transient Analysis: [496  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1094e-05
+	  	                  Norm deltaF: 3.9399e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.0302e-18
+	  	                  Norm deltaF: 4.1445e-12
+
+Transient Analysis: [497  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 8.6315e-06
+	  	                  Norm deltaF: 3.8887e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 7.8441e-19
+	  	                  Norm deltaF: 3.1873e-12
+
+Transient Analysis: [498  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 6.1669e-06
+	  	                  Norm deltaF: 2.4699e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 5.6403e-19
+	  	                  Norm deltaF: 2.4594e-12
+
+Transient Analysis: [499  /499  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 3.7007e-06
+	  	                  Norm deltaF: 3.7585e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-12)
+	  	                  Norm deltaX: 1.1481e-18
+	  	                  Norm deltaF: 2.6951e-12
+
+> Analysis End -------------------------------------------------------------------------------
+How polite! Bye, have a nice day!
+
+Script done on Thu 09 Feb 2017 10:05:35 AM PST

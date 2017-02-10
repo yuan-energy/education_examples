@@ -1,0 +1,191 @@
+model name "DP";
+
+// Parameters:
+rho = 0.0*kg/m^3;
+nu = 0.0;
+E = 2E7*N/m^2;
+//
+phi   = 5;
+phirad = pi*phi/180;
+eta = 6*sin(phirad)/(3-sin(phirad));
+// Define the material:
+add material # 1 type DruckerPragerNonAssociateLinearHardening
+    mass_density = rho
+    elastic_modulus = E
+    poisson_ratio = nu
+    druckerprager_k = eta
+    kinematic_hardening_rate = 0*Pa
+    isotropic_hardening_rate = 0*Pa
+    initial_confining_stress = 10*Pa 
+    plastic_flow_xi = 0.0
+    plastic_flow_kd = 0.0 ;
+
+// define the node:
+add node # 1 at (0*m,0*m,1*m)  with 3 dofs;
+add node # 2 at (1*m,0*m,1*m)  with 3 dofs;
+add node # 3 at (1*m,1*m,1*m)  with 3 dofs;
+add node # 4 at (0*m,1*m,1*m)  with 3 dofs;
+
+add node # 5 at (0*m,0*m,0*m)  with 3 dofs;
+add node # 6 at (1*m,0*m,0*m)  with 3 dofs;
+add node # 7 at (1*m,1*m,0*m)  with 3 dofs;
+add node # 8 at (0*m,1*m,0*m)  with 3 dofs;
+
+// Define the element.
+add element # 1 type 8NodeBrick with nodes (1, 2, 3, 4, 5, 6, 7, 8) use material # 1;
+
+new loading stage "1Confine" ;
+
+fix node # 5 dofs all;
+fix node # 6 dofs uy uz;
+fix node # 8 dofs ux uz;
+
+press = 100000 * Pa;
+add load # 1 to node # 1 type linear Fz = - press *m^2 ;
+add load # 2 to node # 2 type linear Fz = - press *m^2 ;
+add load # 3 to node # 3 type linear Fz = - press *m^2 ;
+add load # 4 to node # 4 type linear Fz = - press *m^2 ;
+add load # 5 to node # 5 type linear Fz = press *m^2 ;
+add load # 6 to node # 6 type linear Fz = press *m^2 ;
+add load # 7 to node # 7 type linear Fz = press *m^2 ;
+add load # 8 to node # 8 type linear Fz = press *m^2 ;
+
+add load #  9 to node # 1 type linear Fx = press *m^2 ;
+add load # 10 to node # 4 type linear Fx = press *m^2 ;
+add load # 11 to node # 8 type linear Fx = press *m^2 ;
+add load # 12 to node # 5 type linear Fx = press *m^2 ;
+add load # 13 to node # 2 type linear Fx = - press *m^2 ;
+add load # 14 to node # 3 type linear Fx = - press *m^2 ;
+add load # 15 to node # 6 type linear Fx = - press *m^2 ;
+add load # 16 to node # 7 type linear Fx = - press *m^2 ;
+
+add load # 17 to node # 1 type linear Fy = press *m^2 ;
+add load # 18 to node # 2 type linear Fy = press *m^2 ;
+add load # 19 to node # 6 type linear Fy = press *m^2 ;
+add load # 20 to node # 5 type linear Fy = press *m^2 ;
+add load # 21 to node # 3 type linear Fy = - press *m^2 ;
+add load # 22 to node # 7 type linear Fy = - press *m^2 ;
+add load # 23 to node # 8 type linear Fy = - press *m^2 ;
+add load # 24 to node # 4 type linear Fy = - press *m^2 ;
+
+define NDMaterial constitutive integration algorithm Backward_Euler
+    yield_function_relative_tolerance =  1E-7
+    stress_relative_tolerance =  1E-7
+    maximum_iterations = 100;
+
+define solver UMFPack;
+//define algorithm With_no_convergence_check ;
+define convergence test Norm_Displacement_Increment
+    tolerance = 1E-8
+    maximum_iterations =  50
+    verbose_level = 4;
+define algorithm NewtonLineSearch ;
+Nstep = 10;
+define load factor increment 1/Nstep;
+simulate Nstep steps using static algorithm;
+
+new loading stage "2shearing";
+//fix the bottom totally
+fix node # 7 dofs all;
+fix node # 6 dofs ux;
+fix node # 8 dofs uy;
+// Fix the other 2 directions.
+fix node # 1 dofs uy uz ;
+fix node # 2 dofs uy uz ;
+fix node # 3 dofs uy uz ;
+fix node # 4 dofs uy uz ;
+
+add load # 101 to node # 1 type linear Fx =  400 * N;
+add load # 102 to node # 2 type linear Fx =  400 * N;
+add load # 103 to node # 3 type linear Fx =  400 * N;
+add load # 104 to node # 4 type linear Fx =  400 * N;
+    
+define solver ProfileSPD;
+//define algorithm With_no_convergence_check ;Norm_Displacement_Increment;Norm_Unbalance
+define convergence test Norm_Displacement_Increment
+    tolerance = 1E-6
+    maximum_iterations =  50
+    verbose_level = 4;
+define algorithm Newton;
+
+define NDMaterial constitutive integration algorithm Backward_Euler
+    yield_function_relative_tolerance =  1E-7
+    stress_relative_tolerance =  1E-7
+    maximum_iterations = 100;
+Nsteps = 100;
+target_disp = 4E-4;
+define static integrator displacement_control using node # 1 dof ux increment target_disp*m ;
+//define load factor increment 1/Nsteps;
+simulate Nsteps steps using static algorithm;
+new loading stage "3unloading";
+add load # 105 to node # 1 type linear Fx =  -400 * N;
+add load # 106 to node # 2 type linear Fx =  -400 * N;
+add load # 107 to node # 3 type linear Fx =  -400 * N;
+add load # 108 to node # 4 type linear Fx =  -400 * N;
+define solver ProfileSPD;
+//define algorithm With_no_convergence_check ;
+define convergence test Norm_Displacement_Increment
+    tolerance = 1E-6
+    maximum_iterations =  50
+    verbose_level = 4;
+define algorithm Newton ;
+
+define NDMaterial constitutive integration algorithm Backward_Euler
+    yield_function_relative_tolerance =  1E-7
+    stress_relative_tolerance =  1E-7
+    maximum_iterations = 100;
+Nsteps = 100;
+// define static integrator displacement_control using node # <.> dof DOFTYPE increment <length>;
+define static integrator displacement_control using node # 1 dof ux increment -target_disp*m ;
+//define load factor increment 1/Nsteps;
+simulate 2*Nsteps steps using static algorithm;
+
+
+new loading stage "4reloading" ;
+add load # 115 to node # 1 type linear Fx =  400 * N;
+add load # 116 to node # 2 type linear Fx =  400 * N;
+add load # 117 to node # 3 type linear Fx =  400 * N;
+add load # 118 to node # 4 type linear Fx =  400 * N;
+define solver ProfileSPD;
+//define algorithm With_no_convergence_check ;
+define convergence test Norm_Displacement_Increment
+    tolerance = 1E-6
+    maximum_iterations =  50
+    verbose_level = 4;
+define algorithm Newton ;
+
+define NDMaterial constitutive integration algorithm Backward_Euler
+    yield_function_relative_tolerance =  1E-7
+    stress_relative_tolerance =  1E-7
+    maximum_iterations = 100;
+Nsteps = 100;
+// define static integrator displacement_control using node # <.> dof DOFTYPE increment <length>;
+define static integrator displacement_control using node # 1 dof ux increment target_disp*m ;
+//define load factor increment 1/Nsteps;
+simulate 2*Nsteps steps using static algorithm;
+
+
+bye;  
+
+
+
+
+//mot = 1;
+//dt = 1E2*s ; 
+//while (mot < 5 ) {
+    //add imposed motion # mot+100 to node # mot dof ux 
+        //time_step =  dt
+        //displacement_scale_unit =  0.3*m 
+        //displacement_file =  "path.txt" 
+        //velocity_scale_unit =  0*m/s 
+        //velocity_file =  "path.txt" 
+        //acceleration_scale_unit =  0.0*m/s^2 
+        //acceleration_file = "path.txt";
+    //mot = mot + 1;
+    //};
+
+    //
+//define dynamic integrator Newmark with 
+    //gamma = 0.5 
+    //beta = 0.25;
+//    

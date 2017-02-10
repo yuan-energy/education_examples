@@ -1,0 +1,2680 @@
+Script started on Thu 09 Feb 2017 09:09:58 PM PST
+                                                               
+                                                               
+  The Finite Element Interpreter                               
+                                                               
+  Real ESSI                                                  
+  Earthquake Soil Structure Interaction Simulator            
+                                                             
+  Sequential processing mode.                                
+                                                             
+Version : --NOT FROM GIT REPO--
+Compiled: Feb  9 2017 at 19:28:44
+Time Now: Feb 09 2017 at 21:09:58
+                                                               
+Static startup tips:                                           
+ * Remember: Every command ends with a semicolon ';'.          
+ * Type 'quit;' or 'exit;' to finish.                          
+ * Run 'essi -h' to see available command line options.        
+                                                               
+Including: "main.fei"
+
+
+Model name is being set to "DP"
+
+
+
+Starting new stage: 1Confine
+
+changing previous_stage_name from  to 1Confine
+Setting set_constitutive_integration_method = 2
+WARNING: CTestNormDisp::setEquiSolnAlgo() - no SOE
+
+Starting sequential static multistep analysis
+====================================================================================================
+Creating analysis model........................................................................Pass!
+Checking constraint handler....................................................................Pass!
+Checking numberer..............................................................................Pass!
+Checking analysis algorithm....................................................................Pass!
+Checking system of equation handler............................................................Pass!
+Checking static integration handler............................................................Pass!
+Writing Initial Conditions   and  (0) - Outputting mesh.
+
+Static Analysis: [    1/10   ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 0.0069282
+	  	                  Norm deltaF: 7.276e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 3.3321e-18
+	  	                  Norm deltaF: 7.4999e-12
+
+Static Analysis: [2    /10   ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 0.0069282
+	  	                  Norm deltaF: 8.9112e-12
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 1.7481e-17
+	  	                  Norm deltaF: 7.276e-12
+
+Static Analysis: [3    /10   ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 0.0069282
+	  	                  Norm deltaF: 1.3612e-11
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 1.6191e-17
+	  	                  Norm deltaF: 1.627e-11
+
+Static Analysis: [4    /10   ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 0.0069282
+	  	                  Norm deltaF: 1.4552e-11
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 3.7137e-17
+	  	                  Norm deltaF: 2.6234e-11
+
+Static Analysis: [5    /10   ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 0.0069282
+	  	                  Norm deltaF: 2.3009e-11
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 7.2897e-17
+	  	                  Norm deltaF: 1.7822e-11
+
+Static Analysis: [6    /10   ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 0.0069282
+	  	                  Norm deltaF: 1.4552e-11
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 8.1006e-18
+	  	                  Norm deltaF: 1.029e-11
+
+Static Analysis: [7    /10   ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 0.0069282
+	  	                  Norm deltaF: 1.4552e-11
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 3.2175e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [8    /10   ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 0.0069282
+	  	                  Norm deltaF: 4.6017e-11
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 8.0061e-17
+	  	                  Norm deltaF: 4.1159e-11
+
+Static Analysis: [9    /10   ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 0.0069282
+	  	                  Norm deltaF: 4.1159e-11
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 4.4755e-17
+	  	                  Norm deltaF: 4.8263e-11
+
+Static Analysis: [10   /10   ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 0.0069282
+	  	                  Norm deltaF: 5.6359e-11
+	 [iteration 2    /50   ]  CTestNormDispIncr::(tol: 1e-08)
+	  	                  Norm deltaX: 5.9096e-17
+	  	                  Norm deltaF: 5.4448e-11
+
+> Analysis End -------------------------------------------------------------------------------
+
+
+Starting new stage: 2shearing
+
+changing previous_stage_name from !!none to 2shearing
+Setting set_constitutive_integration_method = 2
+
+Starting sequential static multistep analysis
+====================================================================================================
+Creating analysis model........................................................................Pass!
+Checking constraint handler....................................................................Pass!
+Checking numberer..............................................................................Pass!
+Checking analysis algorithm....................................................................Pass!
+Checking system of equation handler............................................................Pass!
+Checking static integration handler............................................................Pass!
+
+Static Analysis: [1    /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.5876e-17
+	  	                  Norm deltaF: 2.058e-11
+ and  (0) - Outputting mesh.
+
+Static Analysis: [2    /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.7371e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [3    /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.1908e-17
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [4    /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0932e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [5    /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.3854e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [6    /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.2205e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [7    /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4839e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [8    /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.7354e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [9    /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.5876e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [10   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.548e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [11   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.7051e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [12   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.2888e-17
+	  	                  Norm deltaF: 5.2468e-11
+
+Static Analysis: [13   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1364e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [14   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.3261e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [15   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.2759e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [16   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.512e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [17   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.7143e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [18   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6364e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [19   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.6336e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [20   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.5045e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [21   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.8988e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [22   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.1551e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [23   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.6655e-31
+	  	                  Norm deltaF: 0
+
+Static Analysis: [24   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.4972e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [25   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [26   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.5437e-31
+	  	                  Norm deltaF: 0
+
+Static Analysis: [27   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.4221e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [28   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4967e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [29   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.2865e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [30   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0898e-17
+	  	                  Norm deltaF: 3.8501e-11
+
+Static Analysis: [31   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.3005e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [32   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.6276e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [33   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0889e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [34   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.1462e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [35   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.3358e-17
+	  	                  Norm deltaF: 0
+
+Static Analysis: [36   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.5717e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [37   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.2042e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [38   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.3347e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [39   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2637e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [40   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.6293e-31
+	  	                  Norm deltaF: 0
+
+Static Analysis: [41   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4913e-17
+	  	                  Norm deltaF: 0
+
+Static Analysis: [42   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0864e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [43   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.4665e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [44   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.7308e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [45   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.0814e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [46   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0842e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [47   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.6585e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [48   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1209e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [49   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.2114e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [50   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.087e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [51   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.5903e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [52   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.6033e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [53   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.4639e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [54   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.451e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [55   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1933e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [56   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.6051e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [57   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.8495e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [58   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5987e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [59   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.6943e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [60   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.5001e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [61   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.6009e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [62   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.2002e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [63   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.5768e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [64   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.3769e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [65   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.5907e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [66   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.5078e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [67   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.5726e-17
+	  	                  Norm deltaF: 0
+
+Static Analysis: [68   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0821e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [69   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1156e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [70   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.7861e-18
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [71   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.1049e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [72   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0811e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [73   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0791e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [74   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5876e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [75   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.4403e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [76   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1825e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [77   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.6563e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [78   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.5616e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [79   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5844e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [80   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.7735e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [81   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.5643e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [82   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.8021e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [83   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.7817e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [84   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2535e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [85   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.0369e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [86   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.6994e-31
+	  	                  Norm deltaF: 0
+
+Static Analysis: [87   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.4236e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [88   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.0318e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [89   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.8169e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [90   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.7412e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [91   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.8151e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [92   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [93   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.0236e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [94   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.151e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [95   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.076e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [96   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.7402e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [97   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1734e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [98   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1095e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [99   /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5727e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [100  /100  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.7032e-17
+	  	                  Norm deltaF: 3.8501e-11
+
+> Analysis End -------------------------------------------------------------------------------
+
+
+Starting new stage: 3unloading
+
+changing previous_stage_name from !!none to 3unloading
+Setting set_constitutive_integration_method = 2
+
+Starting sequential static multistep analysis
+====================================================================================================
+Creating analysis model........................................................................Pass!
+Checking constraint handler....................................................................Pass!
+Checking numberer..............................................................................Pass!
+Checking analysis algorithm....................................................................Pass!
+Checking system of equation handler............................................................Pass!
+Checking static integration handler............................................................Pass!
+
+Static Analysis: [1    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.7328e-17
+	  	                  Norm deltaF: 9.6526e-11
+ and  (0) - Outputting mesh.
+
+Static Analysis: [2    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.3378e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [3    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.9226e-17
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [4    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1943e-17
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [5    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.0086e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [6    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.6865e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [7    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1072e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [8    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.0443e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [9    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.3947e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [10   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.7952e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [11   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.7462e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [12   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5215e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [13   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.0492e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [14   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5371e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [15   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.4013e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [16   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.2811e-17
+	  	                  Norm deltaF: 0
+
+Static Analysis: [17   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.0443e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [18   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.433e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [19   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5301e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [20   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.0443e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [21   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.433e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [22   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.0496e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [23   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.6584e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [24   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.8014e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [25   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5215e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [26   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.3083e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [27   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.8014e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [28   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.0501e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [29   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.7302e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [30   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.3148e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [31   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.6883e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [32   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.8864e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [33   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.0443e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [34   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5215e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [35   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.5898e-17
+	  	                  Norm deltaF: 8.3594e-11
+
+Static Analysis: [36   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.3865e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [37   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.1414e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [38   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.465e-17
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [39   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.7301e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [40   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.5837e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [41   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2477e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [42   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.1815e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [43   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.6008e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [44   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.3958e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [45   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2475e-17
+	  	                  Norm deltaF: 3.8501e-11
+
+Static Analysis: [46   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.3156e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [47   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5666e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [48   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.7966e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [49   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1501e-30
+	  	                  Norm deltaF: 0
+
+Static Analysis: [50   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.9845e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [51   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.166e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [52   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4689e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [53   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4684e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [54   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1057e-17
+	  	                  Norm deltaF: 0
+
+Static Analysis: [55   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.384e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [56   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [57   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1052e-17
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [58   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4676e-17
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [59   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.3783e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [60   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.3259e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [61   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2444e-17
+	  	                  Norm deltaF: 4.1159e-11
+
+Static Analysis: [62   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.376e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [63   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.3759e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [64   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5579e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [65   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.8221e-31
+	  	                  Norm deltaF: 0
+
+Static Analysis: [66   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.5598e-18
+	  	                  Norm deltaF: 4.1159e-11
+
+Static Analysis: [67   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0993e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [68   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.7513e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [69   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5556e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [70   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.7648e-18
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [71   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.4067e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [72   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.3686e-18
+	  	                  Norm deltaF: 3.8501e-11
+
+Static Analysis: [73   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.3678e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [74   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [75   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.9486e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [76   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.1055e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [77   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.3217e-17
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [78   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.3631e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [79   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.7054e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [80   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.7037e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [81   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.1037e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [82   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.547e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [83   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.3961e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [84   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.3091e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [85   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5492e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [86   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.5035e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [87   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.5022e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [88   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2404e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [89   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [90   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.0947e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [91   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1537e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [92   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.0932e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [93   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1001e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [94   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.3871e-18
+	  	                  Norm deltaF: 4.1159e-11
+
+Static Analysis: [95   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2701e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [96   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.5368e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [97   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.8762e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [98   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.0889e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [99   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.0869e-18
+	  	                  Norm deltaF: 4.6017e-11
+
+Static Analysis: [100  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [101  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.3753e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [102  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0991e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [103  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5411e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [104  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.0996e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [105  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6893e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [106  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2382e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [107  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0951e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [108  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1081e-17
+	  	                  Norm deltaF: 5.9999e-11
+
+Static Analysis: [109  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.9399e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [110  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0948e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [111  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.9205e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [112  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1077e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [113  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1076e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [114  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.1029e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [115  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.5121e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [116  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.2948e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [117  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.9086e-18
+	  	                  Norm deltaF: 3.8501e-11
+
+Static Analysis: [118  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.0756e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [119  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.0702e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [120  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.5073e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [121  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [122  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.0731e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [123  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.6283e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [124  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.9028e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [125  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.4871e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [126  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.4753e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [127  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0954e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [128  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.9207e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [129  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.3132e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [130  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.0734e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [131  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0622e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [132  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.5141e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [133  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6755e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [134  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.2867e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [135  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.8942e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [136  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1395e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [137  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.0862e-18
+	  	                  Norm deltaF: 3.8501e-11
+
+Static Analysis: [138  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0941e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [139  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.3225e-18
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [140  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.3549e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [141  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1888e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [142  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.4684e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [143  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.353e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [144  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.0603e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [145  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.8868e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [146  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.0592e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [147  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.4833e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [148  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.3507e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [149  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2237e-17
+	  	                  Norm deltaF: 4.1159e-11
+
+Static Analysis: [150  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6739e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [151  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.9067e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [152  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0584e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [153  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.3018e-17
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [154  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.3144e-18
+	  	                  Norm deltaF: 4.6017e-11
+
+Static Analysis: [155  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.5017e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [156  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.0507e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [157  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.3308e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [158  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0598e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [159  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5262e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [160  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1382e-18
+	  	                  Norm deltaF: 3.8501e-11
+
+Static Analysis: [161  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6636e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [162  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.3104e-18
+	  	                  Norm deltaF: 3.8501e-11
+
+Static Analysis: [163  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0915e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [164  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.4958e-31
+	  	                  Norm deltaF: 0
+
+Static Analysis: [165  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.3022e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [166  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.3452e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [167  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5242e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [168  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.4954e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [169  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.3228e-18
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [170  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.3222e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [171  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [172  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.4535e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [173  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [174  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5226e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [175  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0934e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [176  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.6668e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [177  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.5413e-17
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [178  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.7018e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [179  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.3331e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [180  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.4898e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [181  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.4495e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [182  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5167e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [183  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.8897e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [184  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4512e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [185  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.086e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [186  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6619e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [187  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.2987e-18
+	  	                  Norm deltaF: 4.6017e-11
+
+Static Analysis: [188  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.8588e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [189  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1332e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [190  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2301e-17
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [191  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.5767e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [192  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2593e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [193  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.0365e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [194  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.3052e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [195  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1318e-17
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [196  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.8873e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [197  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.5089e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [198  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.0197e-18
+	  	                  Norm deltaF: 4.6017e-11
+
+Static Analysis: [199  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2567e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [200  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+> Analysis End -------------------------------------------------------------------------------
+
+
+Starting new stage: 4reloading
+
+changing previous_stage_name from !!none to 4reloading
+Setting set_constitutive_integration_method = 2
+
+Starting sequential static multistep analysis
+====================================================================================================
+Creating analysis model........................................................................Pass!
+Checking constraint handler....................................................................Pass!
+Checking numberer..............................................................................Pass!
+Checking analysis algorithm....................................................................Pass!
+Checking system of equation handler............................................................Pass!
+Checking static integration handler............................................................Pass!
+
+Static Analysis: [1    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.04e-18
+	  	                  Norm deltaF: 1.4552e-11
+ and  (0) - Outputting mesh.
+
+Static Analysis: [2    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6989e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [3    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.1919e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [4    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.5168e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [5    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.0959e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [6    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.9227e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [7    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.7436e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [8    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.6216e-17
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [9    /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2634e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [10   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.8454e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [11   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6989e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [12   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.9799e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [13   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.4595e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [14   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.7436e-18
+	  	                  Norm deltaF: 4.6017e-11
+
+Static Analysis: [15   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.197e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [16   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.9366e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [17   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.8092e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [18   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.5168e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [19   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.9598e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [20   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.1257e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [21   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.7436e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [22   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.7517e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [23   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.0959e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [24   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.4595e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [25   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [26   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.9391e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [27   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.1919e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [28   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0001e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [29   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.275e-17
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [30   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0004e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [31   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.8782e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [32   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.356e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [33   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1102e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [34   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.2635e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [35   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.9391e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [36   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [37   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.9227e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [38   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.0699e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [39   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.5168e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [40   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.9366e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [41   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.5964e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [42   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.0959e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [43   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.478e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [44   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.9391e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [45   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.0591e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [46   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.9227e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [47   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.0959e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [48   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.8454e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [49   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.5168e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [50   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6989e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [51   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.9227e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [52   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.4595e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [53   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6989e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [54   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.7436e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [55   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.0726e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [56   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2962e-17
+	  	                  Norm deltaF: 0
+
+Static Analysis: [57   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [58   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0898e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [59   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.4573e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [60   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5112e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [61   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.2804e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [62   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0541e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [63   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.0139e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [64   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1301e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [65   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.4384e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [66   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.4378e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [67   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2285e-17
+	  	                  Norm deltaF: 4.6017e-11
+
+Static Analysis: [68   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.4761e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [69   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.0136e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [70   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.089e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [71   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.295e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [72   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.7283e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [73   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.5481e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [74   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.7281e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [75   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.5065e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [76   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2548e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [77   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [78   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5073e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [79   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0553e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [80   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.4295e-18
+	  	                  Norm deltaF: 5.6359e-11
+
+Static Analysis: [81   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.3115e-18
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [82   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.012e-17
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [83   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.5446e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [84   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.4305e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [85   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.4267e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [86   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [87   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5055e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [88   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6395e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [89   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.4245e-18
+	  	                  Norm deltaF: 5.6359e-11
+
+Static Analysis: [90   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 7.8348e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [91   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.2908e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [92   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.8798e-18
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [93   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.8845e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [94   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4133e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [95   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5091e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [96   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1256e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [97   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.7014e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [98   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5033e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [99   /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1252e-18
+	  	                  Norm deltaF: 4.1159e-11
+
+Static Analysis: [100  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.8759e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [101  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [102  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.4639e-18
+	  	                  Norm deltaF: 4.8263e-11
+
+Static Analysis: [103  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.417e-18
+	  	                  Norm deltaF: 4.1159e-11
+
+Static Analysis: [104  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.2627e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [105  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6449e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [106  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5018e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [107  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.4623e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [108  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.634e-18
+	  	                  Norm deltaF: 4.8263e-11
+
+Static Analysis: [109  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.6986e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [110  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5066e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [111  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6435e-18
+	  	                  Norm deltaF: 2.5205e-11
+
+Static Analysis: [112  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.4124e-18
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [113  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.6922e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [114  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.2468e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [115  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2919e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [116  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4336e-17
+	  	                  Norm deltaF: 5.2468e-11
+
+Static Analysis: [117  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6317e-18
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [118  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2918e-17
+	  	                  Norm deltaF: 6.8255e-11
+
+Static Analysis: [119  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0503e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [120  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6415e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [121  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1226e-18
+	  	                  Norm deltaF: 4.6017e-11
+
+Static Analysis: [122  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6304e-18
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [123  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1223e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [124  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2914e-17
+	  	                  Norm deltaF: 4.1159e-11
+
+Static Analysis: [125  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2221e-17
+	  	                  Norm deltaF: 0
+
+Static Analysis: [126  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [127  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5039e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [128  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.4979e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [129  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1216e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [130  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.4976e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [131  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1214e-18
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [132  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.8614e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [133  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.8609e-18
+	  	                  Norm deltaF: 7.276e-11
+
+Static Analysis: [134  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1211e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [135  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.5158e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [136  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.5153e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [137  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1208e-18
+	  	                  Norm deltaF: 4.1159e-11
+
+Static Analysis: [138  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0493e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [139  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4411e-17
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [140  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.3991e-18
+	  	                  Norm deltaF: 4.1159e-11
+
+Static Analysis: [141  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.5128e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [142  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.3606e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [143  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1201e-18
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [144  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5013e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [145  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4435e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [146  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4434e-17
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [147  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.5009e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [148  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.4946e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [149  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2206e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [150  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.5085e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [151  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6352e-18
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [152  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.3938e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [153  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.3934e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [154  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.393e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [155  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.2377e-18
+	  	                  Norm deltaF: 4.1159e-11
+
+Static Analysis: [156  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4428e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [157  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.0043e-17
+	  	                  Norm deltaF: 5.0409e-11
+
+Static Analysis: [158  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1185e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [159  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.4398e-17
+	  	                  Norm deltaF: 0
+
+Static Analysis: [160  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1312e-17
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [161  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.22e-17
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [162  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.985e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [163  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2199e-17
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [164  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2198e-17
+	  	                  Norm deltaF: 4.3656e-11
+
+Static Analysis: [165  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [166  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.2355e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [167  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 5.6202e-18
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [168  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.5588e-18
+	  	                  Norm deltaF: 1.029e-11
+
+Static Analysis: [169  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.1956e-18
+	  	                  Norm deltaF: 3.3343e-11
+
+Static Analysis: [170  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1173e-18
+	  	                  Norm deltaF: 3.0869e-11
+
+Static Analysis: [171  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.8157e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [172  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.6757e-18
+	  	                  Norm deltaF: 4.4258e-11
+
+Static Analysis: [173  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.2341e-18
+	  	                  Norm deltaF: 1.029e-11
+
+Static Analysis: [174  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.4907e-18
+	  	                  Norm deltaF: 2.9104e-11
+
+Static Analysis: [175  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.406e-17
+	  	                  Norm deltaF: 7.276e-12
+
+Static Analysis: [176  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.0013e-17
+	  	                  Norm deltaF: 3.5645e-11
+
+Static Analysis: [177  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 4.42e-18
+	  	                  Norm deltaF: 3.3343e-11
+
+Static Analysis: [178  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.809e-18
+	  	                  Norm deltaF: 3e-11
+
+Static Analysis: [179  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 0
+	  	                  Norm deltaF: 0
+
+Static Analysis: [180  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1164e-18
+	  	                  Norm deltaF: 2.058e-11
+
+Static Analysis: [181  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.5581e-18
+	  	                  Norm deltaF: 1.029e-11
+
+Static Analysis: [182  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1162e-18
+	  	                  Norm deltaF: 3e-11
+
+Static Analysis: [183  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.1412e-17
+	  	                  Norm deltaF: 3.0869e-11
+
+Static Analysis: [184  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.2881e-17
+	  	                  Norm deltaF: 3.2539e-11
+
+Static Analysis: [185  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.7856e-18
+	  	                  Norm deltaF: 3e-11
+
+Static Analysis: [186  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.8025e-18
+	  	                  Norm deltaF: 7.276e-12
+
+Static Analysis: [187  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 6.9781e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [188  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.9988e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [189  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.1253e-18
+	  	                  Norm deltaF: 0
+
+Static Analysis: [190  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.2717e-18
+	  	                  Norm deltaF: 1.029e-11
+
+Static Analysis: [191  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.7442e-18
+	  	                  Norm deltaF: 7.276e-12
+
+Static Analysis: [192  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.3778e-18
+	  	                  Norm deltaF: 7.276e-12
+
+Static Analysis: [193  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.4897e-18
+	  	                  Norm deltaF: 1.4552e-11
+
+Static Analysis: [194  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 3.4947e-18
+	  	                  Norm deltaF: 7.276e-12
+
+Static Analysis: [195  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 9.3767e-18
+	  	                  Norm deltaF: 7.276e-12
+
+Static Analysis: [196  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 8.8372e-18
+	  	                  Norm deltaF: 4.1797e-11
+
+Static Analysis: [197  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 2.1272e-17
+	  	                  Norm deltaF: 3.0869e-11
+
+Static Analysis: [198  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.7437e-18
+	  	                  Norm deltaF: 3.3343e-11
+
+Static Analysis: [199  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.179e-17
+	  	                  Norm deltaF: 7.276e-12
+
+Static Analysis: [200  /200  ] 
+	 [iteration 1    /50   ]  CTestNormDispIncr::(tol: 1e-06)
+	  	                  Norm deltaX: 1.747e-18
+	  	                  Norm deltaF: 7.276e-12
+
+> Analysis End -------------------------------------------------------------------------------
+How polite! Bye, have a nice day!
+
+Script done on Thu 09 Feb 2017 09:09:59 PM PST

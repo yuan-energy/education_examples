@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.30)  8 FEB 2017 15:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.30)  9 FEB 2017 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1044,19 +1044,84 @@ No file latex_fei_highlight.tex.
 \mm=\count169
 (./education_example_document.aux
 
-LaTeX Warning: Label `linear_elastic_shear_mono' multiply defined.
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
 
 
-LaTeX Warning: Label `linear_elastic_shear_mono' multiply defined.
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
 
 
-LaTeX Warning: Label `linear_elastic_shear_mono' multiply defined.
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
 
 
-LaTeX Warning: Label `linear_elastic_shear_mono' multiply defined.
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
 
 
-LaTeX Warning: Label `linear_elastic_shear_mono' multiply defined.
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
+
+
+LaTeX Warning: Label `Linear Elastic Pure Shear Cyclic Loadin' multiply defined
+.
 
 )
 \openout1 = `education_example_document.aux'.
@@ -1154,114 +1219,443 @@ erthousand on input line 133.
 LaTeX Info: Redefining \ohm on input line 133.
 Package gensymb Info: Using \textohm for \ohm on input line 133.
 Package gensymb Info: Using \textmu for \micro on input line 133.
- [1
+ (./education_example_document.toc)
+\tf@toc=\write6
+\openout6 = `education_example_document.toc'.
+
+
+[1
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 168.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 168.
+nput line 186.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 186.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-(../fei_examples/2_1_linear_elastic/1pure_shear_mono_loading/main.fei)
-<../fei_examples/2_1_linear_elastic/1pure_shear_mono_loading/result.pdf, id=136
-, 543.5808pt x 409.42021pt>
-File: ../fei_examples/2_1_linear_elastic/1pure_shear_mono_loading/result.pdf Gr
-aphic file (type pdf)
+(../fei_examples/linear_elastic/1pure_shear_mono_loading/main.fei)
+<../fei_examples/linear_elastic/1pure_shear_mono_loading/result.pdf, id=137, 54
+3.5808pt x 409.42021pt>
+File: ../fei_examples/linear_elastic/1pure_shear_mono_loading/result.pdf Graphi
+c file (type pdf)
 
-<use ../fei_examples/2_1_linear_elastic/1pure_shear_mono_loading/result.pdf>
-Package pdftex.def Info: ../fei_examples/2_1_linear_elastic/1pure_shear_mono_lo
-ading/result.pdf used on input line 173.
+<use ../fei_examples/linear_elastic/1pure_shear_mono_loading/result.pdf>
+Package pdftex.def Info: ../fei_examples/linear_elastic/1pure_shear_mono_loadin
+g/result.pdf used on input line 191.
 (pdftex.def)             Requested size: 341.43306pt x 257.16768pt.
 
-[2 <../fei_examples/2_1_linear_elastic/1pure_shear_mono_loading/result.pdf>]
-(../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_loading/main.fei)
-<../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_loading/result.pdf, id=2
-01, 553.60262pt x 409.42021pt>
-File: ../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_loading/result.pdf 
-Graphic file (type pdf)
+[3 <../fei_examples/linear_elastic/1pure_shear_mono_loading/result.pdf>]
+(../fei_examples/linear_elastic/2pure_shear_cyclic_loading/main.fei)
+<../fei_examples/linear_elastic/2pure_shear_cyclic_loading/result.pdf, id=196, 
+553.60262pt x 409.42021pt>
+File: ../fei_examples/linear_elastic/2pure_shear_cyclic_loading/result.pdf Grap
+hic file (type pdf)
 
-<use ../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_loading/result.pdf>
-Package pdftex.def Info: ../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_
-loading/result.pdf used on input line 190.
+<use ../fei_examples/linear_elastic/2pure_shear_cyclic_loading/result.pdf>
+Package pdftex.def Info: ../fei_examples/linear_elastic/2pure_shear_cyclic_load
+ing/result.pdf used on input line 208.
 (pdftex.def)             Requested size: 341.43306pt x 252.50723pt.
 
-[3 <../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_loading/result.pdf>]
-(../fei_examples/2_1_linear_elastic/3uniaxial_strain_mono_loading/main.fei)
-<../fei_examples/2_1_linear_elastic/3uniaxial_strain_mono_loading/result.pdf, i
-d=259, 544.01994pt x 409.42021pt>
-File: ../fei_examples/2_1_linear_elastic/3uniaxial_strain_mono_loading/result.p
-df Graphic file (type pdf)
+[4 <../fei_examples/linear_elastic/2pure_shear_cyclic_loading/result.pdf>]
+(../fei_examples/linear_elastic/3uniaxial_strain_mono_loading/main.fei)
+<../fei_examples/linear_elastic/3uniaxial_strain_mono_loading/result.pdf, id=25
+0, 544.01994pt x 409.42021pt>
+File: ../fei_examples/linear_elastic/3uniaxial_strain_mono_loading/result.pdf G
+raphic file (type pdf)
 
-<use ../fei_examples/2_1_linear_elastic/3uniaxial_strain_mono_loading/result.pd
-f>
-Package pdftex.def Info: ../fei_examples/2_1_linear_elastic/3uniaxial_strain_mo
-no_loading/result.pdf used on input line 207.
+<use ../fei_examples/linear_elastic/3uniaxial_strain_mono_loading/result.pdf>
+Package pdftex.def Info: ../fei_examples/linear_elastic/3uniaxial_strain_mono_l
+oading/result.pdf used on input line 225.
 (pdftex.def)             Requested size: 341.43306pt x 256.96152pt.
- [4 <../fei_examples/2_1_linear_elastic/3uniaxial_strain_mono_loading/result.pd
-f>] (../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_loading/main.fei)
-File: ../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_loading/result.pdf 
-Graphic file (type pdf)
 
-<use ../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_loading/result.pdf>
-Package pdftex.def Info: ../fei_examples/2_1_linear_elastic/2pure_shear_cyclic_
-loading/result.pdf used on input line 224.
+[5 <../fei_examples/linear_elastic/3uniaxial_strain_mono_loading/result.pdf>]
+(../fei_examples/linear_elastic/2pure_shear_cyclic_loading/main.fei)
+File: ../fei_examples/linear_elastic/2pure_shear_cyclic_loading/result.pdf Grap
+hic file (type pdf)
+
+<use ../fei_examples/linear_elastic/2pure_shear_cyclic_loading/result.pdf>
+Package pdftex.def Info: ../fei_examples/linear_elastic/2pure_shear_cyclic_load
+ing/result.pdf used on input line 242.
 (pdftex.def)             Requested size: 341.43306pt x 252.50723pt.
 
-[5] [6]
-(../fei_examples/4_1_perfectly_plastic/2pure_shear_cyclic_loading/main.fei)
-<../fei_examples/4_1_perfectly_plastic/2pure_shear_cyclic_loading/result.pdf, i
-d=349, 553.60262pt x 409.42021pt>
-File: ../fei_examples/4_1_perfectly_plastic/2pure_shear_cyclic_loading/result.p
-df Graphic file (type pdf)
+[6] (../fei_examples/perfectly_plastic/2pure_shear_cyclic_loading/main.fei)
+<../fei_examples/perfectly_plastic/2pure_shear_cyclic_loading/result.pdf, id=32
+5, 553.60262pt x 409.42021pt>
+File: ../fei_examples/perfectly_plastic/2pure_shear_cyclic_loading/result.pdf G
+raphic file (type pdf)
 
-<use ../fei_examples/4_1_perfectly_plastic/2pure_shear_cyclic_loading/result.pd
-f>
-Package pdftex.def Info: ../fei_examples/4_1_perfectly_plastic/2pure_shear_cycl
-ic_loading/result.pdf used on input line 298.
+<use ../fei_examples/perfectly_plastic/2pure_shear_cyclic_loading/result.pdf>
+Package pdftex.def Info: ../fei_examples/perfectly_plastic/2pure_shear_cyclic_l
+oading/result.pdf used on input line 328.
 (pdftex.def)             Requested size: 312.9803pt x 231.46652pt.
- [7 <../fei_examples/4_1_perfectly_plastic/2pure_shear_cyclic_loading/result.pd
-f>]
-(../fei_examples/4_1_perfectly_plastic/4uniaxial_strain_cyclic_loading/main.fei
-)
-<../fei_examples/4_1_perfectly_plastic/4uniaxial_strain_cyclic_loading/result.p
-df, id=411, 553.60262pt x 409.42021pt>
-File: ../fei_examples/4_1_perfectly_plastic/4uniaxial_strain_cyclic_loading/res
-ult.pdf Graphic file (type pdf)
 
-<use ../fei_examples/4_1_perfectly_plastic/4uniaxial_strain_cyclic_loading/resu
-lt.pdf>
-Package pdftex.def Info: ../fei_examples/4_1_perfectly_plastic/4uniaxial_strain
-_cyclic_loading/result.pdf used on input line 315.
+[7 <../fei_examples/perfectly_plastic/2pure_shear_cyclic_loading/result.pdf>]
+(../fei_examples/perfectly_plastic/4uniaxial_strain_cyclic_loading/main.fei)
+<../fei_examples/perfectly_plastic/4uniaxial_strain_cyclic_loading/result.pdf, 
+id=387, 553.60262pt x 409.42021pt>
+File: ../fei_examples/perfectly_plastic/4uniaxial_strain_cyclic_loading/result.
+pdf Graphic file (type pdf)
+
+<use ../fei_examples/perfectly_plastic/4uniaxial_strain_cyclic_loading/result.p
+df>
+Package pdftex.def Info: ../fei_examples/perfectly_plastic/4uniaxial_strain_cyc
+lic_loading/result.pdf used on input line 345.
 (pdftex.def)             Requested size: 312.9803pt x 231.46652pt.
- [8 <../fei_examples/4_1_perfectly_plastic/4uniaxial_strain_cyclic_loading/resu
-lt.pdf>] [9] 
+ [8 <../fei_examples/perfectly_plastic/4uniaxial_strain_cyclic_loading/result.p
+df>]
+(../fei_examples/elastoplastic_isotropic_hardening/1pure_shear_mono_loading/mai
+n.fei)
+<../fei_examples/elastoplastic_isotropic_hardening/1pure_shear_mono_loading/res
+ult.pdf, id=447, 536.63297pt x 409.42021pt>
+File: ../fei_examples/elastoplastic_isotropic_hardening/1pure_shear_mono_loadin
+g/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/elastoplastic_isotropic_hardening/1pure_shear_mono_loading
+/result.pdf>
+Package pdftex.def Info: ../fei_examples/elastoplastic_isotropic_hardening/1pur
+e_shear_mono_loading/result.pdf used on input line 370.
+(pdftex.def)             Requested size: 312.9803pt x 238.7883pt.
+ [9 <../fei_examples/elastoplastic_isotropic_hardening/1pure_shear_mono_loading
+/result.pdf>]
+(../fei_examples/elastoplastic_isotropic_hardening/2pure_shear_cyclic_loading/m
+ain.fei)
+<../fei_examples/elastoplastic_isotropic_hardening/2pure_shear_cyclic_loading/r
+esult.pdf, id=512, 553.60262pt x 409.42021pt>
+File: ../fei_examples/elastoplastic_isotropic_hardening/2pure_shear_cyclic_load
+ing/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/elastoplastic_isotropic_hardening/2pure_shear_cyclic_loadi
+ng/result.pdf>
+Package pdftex.def Info: ../fei_examples/elastoplastic_isotropic_hardening/2pur
+e_shear_cyclic_loading/result.pdf used on input line 387.
+(pdftex.def)             Requested size: 312.9803pt x 231.46652pt.
+ [10 <../fei_examples/elastoplastic_isotropic_hardening/2pure_shear_cyclic_load
+ing/result.pdf>]
+(../fei_examples/elastoplastic_isotropic_hardening/3uniaxial_strain_mono_loadin
+g/main.fei)
+<../fei_examples/elastoplastic_isotropic_hardening/3uniaxial_strain_mono_loadin
+g/result.pdf, id=572, 536.63297pt x 409.42021pt>
+File: ../fei_examples/elastoplastic_isotropic_hardening/3uniaxial_strain_mono_l
+oading/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/elastoplastic_isotropic_hardening/3uniaxial_strain_mono_lo
+ading/result.pdf>
+Package pdftex.def Info: ../fei_examples/elastoplastic_isotropic_hardening/3uni
+axial_strain_mono_loading/result.pdf used on input line 404.
+(pdftex.def)             Requested size: 312.9803pt x 238.7883pt.
+ [11 <../fei_examples/elastoplastic_isotropic_hardening/3uniaxial_strain_mono_l
+oading/result.pdf>]
+(../fei_examples/elastoplastic_isotropic_hardening/4uniaxial_strain_cyclic_load
+ing/main.fei)
+<../fei_examples/elastoplastic_isotropic_hardening/4uniaxial_strain_cyclic_load
+ing/result.pdf, id=637, 545.93333pt x 409.42021pt>
+File: ../fei_examples/elastoplastic_isotropic_hardening/4uniaxial_strain_cyclic
+_loading/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/elastoplastic_isotropic_hardening/4uniaxial_strain_cyclic_
+loading/result.pdf>
+Package pdftex.def Info: ../fei_examples/elastoplastic_isotropic_hardening/4uni
+axial_strain_cyclic_loading/result.pdf used on input line 421.
+(pdftex.def)             Requested size: 312.9803pt x 234.72758pt.
+ [12 <../fei_examples/elastoplastic_isotropic_hardening/4uniaxial_strain_cyclic
+_loading/result.pdf>]
+(../fei_examples/elastoplastic_kinematic_hardening/1pure_shear_mono_loading/mai
+n.fei)
+<../fei_examples/elastoplastic_kinematic_hardening/1pure_shear_mono_loading/res
+ult.pdf, id=701, 536.63297pt x 409.42021pt>
+File: ../fei_examples/elastoplastic_kinematic_hardening/1pure_shear_mono_loadin
+g/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/elastoplastic_kinematic_hardening/1pure_shear_mono_loading
+/result.pdf>
+Package pdftex.def Info: ../fei_examples/elastoplastic_kinematic_hardening/1pur
+e_shear_mono_loading/result.pdf used on input line 445.
+(pdftex.def)             Requested size: 312.9803pt x 238.7883pt.
+ [13 <../fei_examples/elastoplastic_kinematic_hardening/1pure_shear_mono_loadin
+g/result.pdf>]
+(../fei_examples/elastoplastic_kinematic_hardening/2pure_shear_cyclic_loading/m
+ain.fei)
+<../fei_examples/elastoplastic_kinematic_hardening/2pure_shear_cyclic_loading/r
+esult.pdf, id=767, 545.93333pt x 409.42021pt>
+File: ../fei_examples/elastoplastic_kinematic_hardening/2pure_shear_cyclic_load
+ing/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/elastoplastic_kinematic_hardening/2pure_shear_cyclic_loadi
+ng/result.pdf>
+Package pdftex.def Info: ../fei_examples/elastoplastic_kinematic_hardening/2pur
+e_shear_cyclic_loading/result.pdf used on input line 462.
+(pdftex.def)             Requested size: 312.9803pt x 234.72758pt.
+ [14 <../fei_examples/elastoplastic_kinematic_hardening/2pure_shear_cyclic_load
+ing/result.pdf>]
+(../fei_examples/elastoplastic_kinematic_hardening/3uniaxial_strain_mono_loadin
+g/main.fei)
+<../fei_examples/elastoplastic_kinematic_hardening/3uniaxial_strain_mono_loadin
+g/result.pdf, id=832, 536.63297pt x 409.42021pt>
+File: ../fei_examples/elastoplastic_kinematic_hardening/3uniaxial_strain_mono_l
+oading/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/elastoplastic_kinematic_hardening/3uniaxial_strain_mono_lo
+ading/result.pdf>
+Package pdftex.def Info: ../fei_examples/elastoplastic_kinematic_hardening/3uni
+axial_strain_mono_loading/result.pdf used on input line 479.
+(pdftex.def)             Requested size: 312.9803pt x 238.7883pt.
+ [15 <../fei_examples/elastoplastic_kinematic_hardening/3uniaxial_strain_mono_l
+oading/result.pdf>]
+(../fei_examples/elastoplastic_kinematic_hardening/4uniaxial_strain_cyclic_load
+ing/main.fei)
+<../fei_examples/elastoplastic_kinematic_hardening/4uniaxial_strain_cyclic_load
+ing/result.pdf, id=897, 545.93333pt x 409.42021pt>
+File: ../fei_examples/elastoplastic_kinematic_hardening/4uniaxial_strain_cyclic
+_loading/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/elastoplastic_kinematic_hardening/4uniaxial_strain_cyclic_
+loading/result.pdf>
+Package pdftex.def Info: ../fei_examples/elastoplastic_kinematic_hardening/4uni
+axial_strain_cyclic_loading/result.pdf used on input line 496.
+(pdftex.def)             Requested size: 312.9803pt x 234.72758pt.
+ [16 <../fei_examples/elastoplastic_kinematic_hardening/4uniaxial_strain_cyclic
+_loading/result.pdf>]
+(../fei_examples/Multi_Yield_Surface_von_Mises/1pure_shear_mono_loading/main.fe
+i)
+<../fei_examples/Multi_Yield_Surface_von_Mises/1pure_shear_mono_loading/result.
+pdf, id=961, 521.08269pt x 409.42021pt>
+File: ../fei_examples/Multi_Yield_Surface_von_Mises/1pure_shear_mono_loading/re
+sult.pdf Graphic file (type pdf)
+
+<use ../fei_examples/Multi_Yield_Surface_von_Mises/1pure_shear_mono_loading/res
+ult.pdf>
+Package pdftex.def Info: ../fei_examples/Multi_Yield_Surface_von_Mises/1pure_sh
+ear_mono_loading/result.pdf used on input line 521.
+(pdftex.def)             Requested size: 312.9803pt x 245.9164pt.
+ [17 <../fei_examples/Multi_Yield_Surface_von_Mises/1pure_shear_mono_loading/re
+sult.pdf>]
+(../fei_examples/Multi_Yield_Surface_von_Mises/2pure_shear_cyclic_loading/main.
+fei)
+<../fei_examples/Multi_Yield_Surface_von_Mises/2pure_shear_cyclic_loading/resul
+t.pdf, id=1024, 519.04382pt x 409.42021pt>
+File: ../fei_examples/Multi_Yield_Surface_von_Mises/2pure_shear_cyclic_loading/
+result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/Multi_Yield_Surface_von_Mises/2pure_shear_cyclic_loading/r
+esult.pdf>
+Package pdftex.def Info: ../fei_examples/Multi_Yield_Surface_von_Mises/2pure_sh
+ear_cyclic_loading/result.pdf used on input line 538.
+(pdftex.def)             Requested size: 312.9803pt x 246.87848pt.
+ [18 <../fei_examples/Multi_Yield_Surface_von_Mises/2pure_shear_cyclic_loading/
+result.pdf>]
+<../Figure-files/shear_brick.JPG, id=1087, 563.85657pt x 371.88937pt>
+File: ../Figure-files/shear_brick.JPG Graphic file (type jpg)
+
+<use ../Figure-files/shear_brick.JPG>
+Package pdftex.def Info: ../Figure-files/shear_brick.JPG used on input line 581
+.
+(pdftex.def)             Requested size: 227.62204pt x 150.12636pt.
+
+<../fei_examples/linear_elastic_solid/1pure_shear_mono_loading/result.pdf, id=1
+088, 540.4676pt x 409.42021pt>
+File: ../fei_examples/linear_elastic_solid/1pure_shear_mono_loading/result.pdf 
+Graphic file (type pdf)
+
+<use ../fei_examples/linear_elastic_solid/1pure_shear_mono_loading/result.pdf>
+Package pdftex.def Info: ../fei_examples/linear_elastic_solid/1pure_shear_mono_
+loading/result.pdf used on input line 591.
+(pdftex.def)             Requested size: 312.9803pt x 237.10155pt.
+
+[19 <../Figure-files/shear_brick.JPG> <../fei_examples/linear_elastic_solid/1pu
+re_shear_mono_loading/result.pdf>]
+<../Figure-files/shear_cyclic_brick.JPG, id=1135, 545.03625pt x 373.395pt>
+File: ../Figure-files/shear_cyclic_brick.JPG Graphic file (type jpg)
+
+<use ../Figure-files/shear_cyclic_brick.JPG>
+Package pdftex.def Info: ../Figure-files/shear_cyclic_brick.JPG used on input l
+ine 606.
+(pdftex.def)             Requested size: 227.62204pt x 155.936pt.
+
+<../fei_examples/linear_elastic_solid/2pure_shear_cyclic_loading/result.pdf, id
+=1136, 546.12154pt x 409.42021pt>
+File: ../fei_examples/linear_elastic_solid/2pure_shear_cyclic_loading/result.pd
+f Graphic file (type pdf)
+
+<use ../fei_examples/linear_elastic_solid/2pure_shear_cyclic_loading/result.pdf
+>
+Package pdftex.def Info: ../fei_examples/linear_elastic_solid/2pure_shear_cycli
+c_loading/result.pdf used on input line 616.
+(pdftex.def)             Requested size: 312.9803pt x 234.64638pt.
+ [20 <../Figure-files/shear_cyclic_brick.JPG> <../fei_examples/linear_elastic_s
+olid/2pure_shear_cyclic_loading/result.pdf>]
+<../Figure-files/vertical.JPG, id=1181, 454.69875pt x 421.575pt>
+File: ../Figure-files/vertical.JPG Graphic file (type jpg)
+
+<use ../Figure-files/vertical.JPG>
+Package pdftex.def Info: ../Figure-files/vertical.JPG used on input line 632.
+(pdftex.def)             Requested size: 227.62204pt x 211.04428pt.
+
+<../fei_examples/linear_elastic_solid/3uniaxial_strain_mono_loading/result.pdf,
+ id=1182, 544.01994pt x 409.42021pt>
+File: ../fei_examples/linear_elastic_solid/3uniaxial_strain_mono_loading/result
+.pdf Graphic file (type pdf)
+
+<use ../fei_examples/linear_elastic_solid/3uniaxial_strain_mono_loading/result.
+pdf>
+Package pdftex.def Info: ../fei_examples/linear_elastic_solid/3uniaxial_strain_
+mono_loading/result.pdf used on input line 642.
+(pdftex.def)             Requested size: 312.9803pt x 235.54597pt.
+ [21 <../Figure-files/vertical.JPG> <../fei_examples/linear_elastic_solid/3unia
+xial_strain_mono_loading/result.pdf>]
+<../Figure-files/vertical_cyclic.JPG, id=1226, 389.95688pt x 386.94562pt>
+File: ../Figure-files/vertical_cyclic.JPG Graphic file (type jpg)
+
+<use ../Figure-files/vertical_cyclic.JPG>
+Package pdftex.def Info: ../Figure-files/vertical_cyclic.JPG used on input line
+ 658.
+(pdftex.def)             Requested size: 227.62204pt x 225.86336pt.
+
+<../fei_examples/linear_elastic_solid/4uniaxial_strain_cyclic_loading/result.pd
+f, id=1227, 553.72809pt x 409.42021pt>
+File: ../fei_examples/linear_elastic_solid/4uniaxial_strain_cyclic_loading/resu
+lt.pdf Graphic file (type pdf)
+
+<use ../fei_examples/linear_elastic_solid/4uniaxial_strain_cyclic_loading/resul
+t.pdf>
+Package pdftex.def Info: ../fei_examples/linear_elastic_solid/4uniaxial_strain_
+cyclic_loading/result.pdf used on input line 669.
+(pdftex.def)             Requested size: 312.9803pt x 231.41655pt.
+ [22 <../Figure-files/vertical_cyclic.JPG> <../fei_examples/linear_elastic_soli
+d/4uniaxial_strain_cyclic_loading/result.pdf>]
+File: ../Figure-files/shear_cyclic_brick.JPG Graphic file (type jpg)
+
+<use ../Figure-files/shear_cyclic_brick.JPG>
+Package pdftex.def Info: ../Figure-files/shear_cyclic_brick.JPG used on input l
+ine 723.
+(pdftex.def)             Requested size: 227.62204pt x 155.936pt.
+
+<../fei_examples/perfectly_plastic_pure_shear_solid/2pure_shear_cyclic_loading/
+result.pdf, id=1270, 546.12154pt x 409.42021pt>
+File: ../fei_examples/perfectly_plastic_pure_shear_solid/2pure_shear_cyclic_loa
+ding/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/perfectly_plastic_pure_shear_solid/2pure_shear_cyclic_load
+ing/result.pdf>
+Package pdftex.def Info: ../fei_examples/perfectly_plastic_pure_shear_solid/2pu
+re_shear_cyclic_loading/result.pdf used on input line 734.
+(pdftex.def)             Requested size: 312.9803pt x 234.64638pt.
+ [23 <../fei_examples/perfectly_plastic_pure_shear_solid/2pure_shear_cyclic_loa
+ding/result.pdf>]
+File: ../Figure-files/shear_cyclic_brick.JPG Graphic file (type jpg)
+ <use ../Figure-files/shear_cyclic_brick.JPG>
+Package pdftex.def Info: ../Figure-files/shear_cyclic_brick.JPG used on input l
+ine 750.
+(pdftex.def)             Requested size: 227.62204pt x 155.936pt.
+
+<../fei_examples/isotropic_hardening_pure_shear/2pure_shear_cyclic_loading/resu
+lt.pdf, id=1313, 553.72809pt x 409.42021pt>
+File: ../fei_examples/isotropic_hardening_pure_shear/2pure_shear_cyclic_loading
+/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/isotropic_hardening_pure_shear/2pure_shear_cyclic_loading/
+result.pdf>
+Package pdftex.def Info: ../fei_examples/isotropic_hardening_pure_shear/2pure_s
+hear_cyclic_loading/result.pdf used on input line 761.
+(pdftex.def)             Requested size: 312.9803pt x 231.41655pt.
+ [24 <../fei_examples/isotropic_hardening_pure_shear/2pure_shear_cyclic_loading
+/result.pdf>]
+File: ../Figure-files/shear_cyclic_brick.JPG Graphic file (type jpg)
+ <use ../Figure-files/shear_cyclic_brick.JPG>
+Package pdftex.def Info: ../Figure-files/shear_cyclic_brick.JPG used on input l
+ine 777.
+(pdftex.def)             Requested size: 227.62204pt x 155.936pt.
+
+<../fei_examples/kinematic_hardening_pure_shear_solid/2pure_shear_cyclic_loadin
+g/result.pdf, id=1355, 546.12154pt x 409.42021pt>
+File: ../fei_examples/kinematic_hardening_pure_shear_solid/2pure_shear_cyclic_l
+oading/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/kinematic_hardening_pure_shear_solid/2pure_shear_cyclic_lo
+ading/result.pdf>
+Package pdftex.def Info: ../fei_examples/kinematic_hardening_pure_shear_solid/2
+pure_shear_cyclic_loading/result.pdf used on input line 788.
+(pdftex.def)             Requested size: 312.9803pt x 234.64638pt.
+ [25 <../fei_examples/kinematic_hardening_pure_shear_solid/2pure_shear_cyclic_l
+oading/result.pdf>]
+File: ../Figure-files/shear_cyclic_brick.JPG Graphic file (type jpg)
+
+<use ../Figure-files/shear_cyclic_brick.JPG>
+Package pdftex.def Info: ../Figure-files/shear_cyclic_brick.JPG used on input l
+ine 803.
+(pdftex.def)             Requested size: 227.62204pt x 155.936pt.
+File: ../fei_examples/kinematic_hardening_pure_shear_solid/2pure_shear_cyclic_l
+oading/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/kinematic_hardening_pure_shear_solid/2pure_shear_cyclic_lo
+ading/result.pdf>
+Package pdftex.def Info: ../fei_examples/kinematic_hardening_pure_shear_solid/2
+pure_shear_cyclic_loading/result.pdf used on input line 814.
+(pdftex.def)             Requested size: 312.9803pt x 234.64638pt.
+ [26]
+File: ../Figure-files/shear_cyclic_brick.JPG Graphic file (type jpg)
+ <use ../Figure-files/shear_cyclic_brick.JPG>
+Package pdftex.def Info: ../Figure-files/shear_cyclic_brick.JPG used on input l
+ine 830.
+(pdftex.def)             Requested size: 227.62204pt x 155.936pt.
+
+<../fei_examples/Drucker_Prager_Associate_Flow_Solid/2pure_shear_cyclic_loading
+/result.pdf, id=1406, 542.28691pt x 409.42021pt>
+File: ../fei_examples/Drucker_Prager_Associate_Flow_Solid/2pure_shear_cyclic_lo
+ading/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/Drucker_Prager_Associate_Flow_Solid/2pure_shear_cyclic_loa
+ding/result.pdf>
+Package pdftex.def Info: ../fei_examples/Drucker_Prager_Associate_Flow_Solid/2p
+ure_shear_cyclic_loading/result.pdf used on input line 841.
+(pdftex.def)             Requested size: 312.9803pt x 236.29564pt.
+ [27 <../fei_examples/Drucker_Prager_Associate_Flow_Solid/2pure_shear_cyclic_lo
+ading/result.pdf>] [28]
+File: ../Figure-files/shear_cyclic_brick.JPG Graphic file (type jpg)
+
+<use ../Figure-files/shear_cyclic_brick.JPG>
+Package pdftex.def Info: ../Figure-files/shear_cyclic_brick.JPG used on input l
+ine 882.
+(pdftex.def)             Requested size: 227.62204pt x 155.936pt.
+
+<../fei_examples/Drucker_Prager_Armstrong_Frederick/2pure_shear_cyclic_loading/
+result.pdf, id=1455, 549.90913pt x 409.42021pt>
+File: ../fei_examples/Drucker_Prager_Armstrong_Frederick/2pure_shear_cyclic_loa
+ding/result.pdf Graphic file (type pdf)
+
+<use ../fei_examples/Drucker_Prager_Armstrong_Frederick/2pure_shear_cyclic_load
+ing/result.pdf>
+Package pdftex.def Info: ../fei_examples/Drucker_Prager_Armstrong_Frederick/2pu
+re_shear_cyclic_loading/result.pdf used on input line 893.
+(pdftex.def)             Requested size: 312.9803pt x 233.01584pt.
+ 
 AED: lastpage setting LastPage
-[10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 541.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 541.
+[29 <../fei_examples/Drucker_Prager_Armstrong_Frederick/2pure_shear_cyclic_load
+ing/result.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 906.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 906.
  (./education_example_document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 541.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 541.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 906.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 906.
 Package rerunfilecheck Info: File `education_example_document.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: 08A766D893FCDF1E05A088B499C63217;3153.
+(rerunfilecheck)             Checksum: 3AAA4A9AD93DE33B8D577C31100C975A;2189.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18931 strings out of 493304
- 312315 string characters out of 6139871
- 463367 words of memory out of 5000000
- 21801 multiletter control sequences out of 15000+600000
- 19064 words of font info for 50 fonts, out of 8000000 for 9000
+ 19308 strings out of 493304
+ 327103 string characters out of 6139871
+ 472367 words of memory out of 5000000
+ 21921 multiletter control sequences out of 15000+600000
+ 21166 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 68i,11n,98p,1579b,1487s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,98p,1579b,1458s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
 fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb
@@ -1271,10 +1665,10 @@ onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sftt1000.pfb>
-Output written on education_example_document.pdf (10 pages, 259677 bytes).
+Output written on education_example_document.pdf (29 pages, 600152 bytes).
 PDF statistics:
- 576 PDF objects out of 1000 (max. 8388607)
- 403 compressed objects within 5 object streams
- 177 named destinations out of 1000 (max. 500000)
- 278 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1614 PDF objects out of 1728 (max. 8388607)
+ 826 compressed objects within 9 object streams
+ 384 named destinations out of 1000 (max. 500000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 

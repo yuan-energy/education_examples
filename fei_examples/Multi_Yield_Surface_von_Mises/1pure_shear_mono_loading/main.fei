@@ -4,8 +4,10 @@ add material # 1 type vonMisesMultipleYieldSurface
 	elastic_modulus = 35175 * Pa 
 	poisson_ratio = 0.15 
 	total_number_of_yield_surface = 15 
-	radiuses_of_yield_surface_file = "radiuses_of_yield_surface.txt" 
-	hardening_parameters_of_yield_surface_file = "hardening_parameters_of_yield_surface.txt"  ;
+	radiuses_of_yield_surface = 
+	"2.7 2.74 2.8 2.82 2.85 2.9 3.0 3.1 3.25 3.5 4.2 5.3 6.5 7.5 10.0 12.65" 
+	hardening_parameters_of_yield_surface = 
+	"5500 4000 2700 2400 1890 1300 915 600 254 167 79 65.4 23 2.2 1.2"  ;
 incr_size = 0.0000001  ;
 max_strain= 0.001 ; 
 num_of_increm =  max_strain/incr_size -1 ;

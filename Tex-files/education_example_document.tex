@@ -255,46 +255,50 @@ Linear Elastic Uniaxial Cyclic Loading}
 The fei files for this example are available \href{https://github.com/yuan-energy/education_examples/tree/master/fei_examples/linear_elastic/4uniaxial_strain_cyclic_loading}{here}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \newpage
-% \subsection{Nonlinear Elastic Constitutive Examples}
+\newpage
+\subsection{Nonlinear Elastic Constitutive Examples}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \paragraph{Pure Shear, Monotonic Loading} ~
+\paragraph{Triaxial Uniform Pressure, Monotonic Loading} ~
 
-% Material Parameters:
-% \lstinputlisting{../fei_examples/nonlinear_elastic/2pure_shear_cyclic_loading/main.fei}
+The Duncan-Chang nonlinear elastic materials:
+\begin{equation}
+  E = E_0 - \kappa * p
+\end{equation}
+where $E_0$ is the initial elastic modulus, parameter $\kappa$ is a material constant, and $p$ is the pressure $p$, where the compresssive pressure is defined as positive in Real ESSI.
 
-% Material Response:
-% \begin{figure}[H]
-% \begin{center}
-% \includegraphics[width=12cm]{../fei_examples/nonlinear_elastic/2pure_shear_cyclic_loading/result.pdf}
-% \caption{
-% \label{linear_elastic_shear_mono}
-% Linear Elastic Pure Shear Cyclic Loading}
-% \end{center}
-% \end{figure}
+Material Parameters:
+\lstinputlisting{../fei_examples/duncan_chang_nonlinear_elasticity/1triaxial_uniform_mono_loading/main.fei}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \newpage
-% \paragraph{Pure Shear, Cyclic Loading} ~
-
-% Material Parameters:
-% \lstinputlisting{../fei_examples/nonlinear_elastic/2pure_shear_cyclic_loading/main.fei}
-
-% Material Response:
-% \begin{figure}[H]
-% \begin{center}
-% \includegraphics[width=12cm]{../fei_examples/nonlinear_elastic/2pure_shear_cyclic_loading/result.pdf}
-% \caption{
-% \label{linear_elastic_shear_mono}
-% Linear Elastic Pure Shear Cyclic Loading}
-% \end{center}
-% \end{figure}
+Material Response:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=12cm]{../fei_examples/duncan_chang_nonlinear_elasticity/1triaxial_uniform_mono_loading/result.pdf}
+\caption{
+\label{Res_triaxial_nonlinear_elastic_mono}
+Results of Duncan-Chang Nonlinear Elastic Monotonic Loading}
+\end{center}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \paragraph{Uniaxial Strain, Monotonic Loading} ~
+\newpage
+\subsection{Nonlinear Elastic Constitutive Examples}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \paragraph{Uniaxial Strain, Cyclic Loading} ~
+\paragraph{Triaxial Uniform Pressure, Cyclic Loading} ~
+
+Material Parameters:
+\lstinputlisting{../fei_examples/duncan_chang_nonlinear_elasticity/2triaxial_uniform_cyclic_loading/main.fei}
+
+Material Response:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=12cm]{../fei_examples/duncan_chang_nonlinear_elasticity/2triaxial_uniform_cyclic_loading/result.pdf}
+\caption{
+\label{Res_triaxial_nonlinear_elastic_cyclic}
+Results of Duncan-Chang Nonlinear Elastic Cyclic Loading}
+\end{center}
+\end{figure}
 
 
 

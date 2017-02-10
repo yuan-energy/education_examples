@@ -6,9 +6,9 @@ strain = np.loadtxt("strain.feioutput")
 stress = np.loadtxt("stress.feioutput")
 
 
-plt.plot(strain, stress)
-plt.xlabel('Strain / (unitless)')
-plt.ylabel('Stress / (Pa)')
+plt.plot(-strain, -stress)
+plt.xlabel('Compressive Strain / (-1*unitless)')
+plt.ylabel('Compressive Stress / (-1*Pa)')
 plt.title('Material Behavior: Stress-Strain')
 plt.grid()
 plt.box()

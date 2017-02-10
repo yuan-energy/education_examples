@@ -1,4 +1,4 @@
-Script started on Thu 09 Feb 2017 08:43:50 AM PST
+Script started on Fri 10 Feb 2017 10:44:28 AM PST
                                                                
                                                                
   The Finite Element Interpreter                               
@@ -9,8 +9,8 @@ Script started on Thu 09 Feb 2017 08:43:50 AM PST
   Sequential processing mode.                                
                                                              
 Version : --NOT FROM GIT REPO--
-Compiled: Feb  8 2017 at 10:57:05
-Time Now: Feb 09 2017 at 08:43:50
+Compiled: Feb 10 2017 at 10:32:09
+Time Now: Feb 10 2017 at 10:44:28
                                                                
 Static startup tips:                                           
  * Remember: Every command ends with a semicolon ';'.          
@@ -4033,4 +4033,4 @@ Static Analysis: [200  /200  ]
 > Analysis End -------------------------------------------------------------------------------
 How polite! Bye, have a nice day!
 
-Script done on Thu 09 Feb 2017 08:43:51 AM PST
+Script done on Fri 10 Feb 2017 10:44:29 AM PST

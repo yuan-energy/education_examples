@@ -1,0 +1,11 @@
+model name "test";
+add material # 1 type Duncan_Chang_nonlinear_elastic_isotropic_3d_LT 
+	mass_density = 2E3 * kg/m^3 
+	initial_elastic_modulus = 3E5 * Pa 
+	poisson_ratio= 0.15
+	kappa = 60000  ;
+simulate constitutive testing strain control triaxial uniform loading use material # 1
+	strain_increment_size = 0.000001 
+	maximum_strain = 0.001
+	number_of_increment = 1000;
+bye;

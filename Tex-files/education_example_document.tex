@@ -263,9 +263,10 @@ The fei files for this example are available \href{https://github.com/yuan-energ
 
 The Duncan-Chang nonlinear elastic materials:
 \begin{equation}
-  E = E_0 - \kappa * p
+  E = K p_a (\frac{\sigma_3}{p_a})^n
 \end{equation}
-where $E_0$ is the initial elastic modulus, parameter $\kappa$ is a material constant, and $p$ is the pressure $p$, where the compresssive pressure is defined as positive in Real ESSI.
+where $K$ and $n$ are material constants. And pressure $p_a$ is atmospheric pressure. 
+And stress $\sigma_3$ is the minor principal stress. 
 
 Material Parameters:
 \lstinputlisting{../fei_examples/duncan_chang_nonlinear_elasticity/1triaxial_uniform_mono_loading/main.fei}
@@ -720,21 +721,64 @@ The fei files for this example are available \href{https://github.com/yuan-energ
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \newpage
-% \subsection{Nonlinear Elastic Pure Shear Solid Examples}
+\newpage
+\subsection{Nonlinear Elastic, Duncan-Chang, Pure Shear, Solid Examples}
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \paragraph{Pure Shear, Monotonic Loading} ~
+\paragraph{Pure Shear, Monotonic Loading} ~
+
+
+Model Description:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{../Figure-files/shear_brick.JPG}
+\caption{
+\label{Nonlinear Elastic Uniaxial Strain Monotonic Loadin}
+Nonlinear Elastic Uniaxial Strain Monotonic Loading}
+\end{center}
+\end{figure}
+
+Material Response at Gauss Point:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/nonlinear_elastic_solid/1pure_shear_mono_loading/result.pdf}
+\caption{
+\label{Results_Nonlinear Elastic Pure Shear Monotonic Loadin}
+Results of Nonlinear Elastic Pure Shear Monotonic Loading}
+\end{center}
+\end{figure}
+
+The fei files for this example are available \href{https://github.com/yuan-energy/education_examples/tree/master/fei_examples/nonlinear_elastic_solid/1pure_shear_mono_loading}{here}.
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \paragraph{Pure Shear, Cyclic Loading} ~
+\newpage
+\paragraph{Pure Shear, Cyclic Loading} ~
 
+Model Description:
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \paragraph{Uniaxial Strain, Monotonic Loading} ~
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{../Figure-files/shear_cyclic_brick.JPG}
+\caption{
+\label{Nonlinear Elastic Uniaxial Strain Cyclic Loadin}
+Nonlinear Elastic Uniaxial Strain Cyclic Loading}
+\end{center}
+\end{figure}
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \paragraph{Uniaxial Strain, Cyclic Loading} ~
+Material Response at Gauss Point:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{../fei_examples/nonlinear_elastic_solid/2pure_shear_cyclic_loading/result.pdf}
+\caption{
+\label{Results_Nonlinear Elastic Pure Shear Cyclic Loadin}
+Results of Nonlinear Elastic Pure Shear Cyclic Loading}
+\end{center}
+\end{figure}
+
+The fei files for this example are available \href{https://github.com/yuan-energy/education_examples/tree/master/fei_examples/nonlinear_elastic_solid/2pure_shear_cyclic_loading}{here}.
 
 
 

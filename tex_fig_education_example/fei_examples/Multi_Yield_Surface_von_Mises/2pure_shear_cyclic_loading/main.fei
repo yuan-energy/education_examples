@@ -1,0 +1,19 @@
+model name "test";
+add material # 1 type vonMisesMultipleYieldSurface
+	mass_density = 0.0*kg/m^3 
+	elastic_modulus = 35175 * Pa 
+	poisson_ratio = 0.15 
+	total_number_of_yield_surface = 15 
+	radiuses_of_yield_surface = 
+	"2.7 2.74 2.8 2.82 2.85 2.9 3.0 3.1 3.25 3.5 4.2 5.3 6.5 7.5 10.0 12.65" 
+	hardening_parameters_of_yield_surface = 
+	"5500 4000 2700 2400 1890 1300 915 600 254 167 79 65.4 23 2.2 1.2"  ;
+incr_size = 0.0000001  ;
+max_strain= 0.001 ; 
+num_of_increm = 5* max_strain/incr_size ;
+simulate constitutive testing strain control pure shear use material # 1
+	confinement_strain = 0.0
+	strain_increment_size = incr_size 
+	maximum_strain = max_strain
+	number_of_increment = num_of_increm;
+bye;

@@ -1,0 +1,45 @@
+Script started on Tue 07 Feb 2017 02:30:05 PM PST
+                                                               
+                                                               
+  The Finite Element Interpreter                               
+                                                               
+  Real ESSI                                                  
+  Earthquake Soil Structure Interaction Simulator            
+                                                             
+  Sequential processing mode.                                
+                                                             
+Version : --NOT FROM GIT REPO--
+Compiled: Feb  7 2017 at 12:23:12
+Time Now: Feb 07 2017 at 14:30:05
+                                                               
+Static startup tips:                                           
+ * Remember: Every command ends with a semicolon ';'.          
+ * Type 'quit;' or 'exit;' to finish.                          
+ * Run 'essi -h' to see available command line options.        
+                                                               
+Including: "main.fei"
+
+
+Model name is being set to "test"
+
+
+***  Constitutive Testing ***
+Test condition: Pure Shear with Strain Control
+confine_strain    = 0.001000 
+strain_incr    = 0.000010 
+max_strain     = 0.015000 
+number_of_incr = 1500.000000 
+Stress and Strain State before Constitutive Testing
+stress = 
+[      0.00000000 	       0.00000000 	       0.00000000 
+       0.00000000 	       0.00000000 	       0.00000000 
+       0.00000000 	       0.00000000 	       0.00000000] 
+strain = 
+[      0.00000000 	       0.00000000 	       0.00000000 
+       0.00000000 	       0.00000000 	       0.00000000 
+       0.00000000 	       0.00000000 	       0.00000000] 
+***  Constitutive Testing Done!  *** 
+Strain and stress are output to strain.feioutput and stress.feioutput, respectively.
+How polite! Bye, have a nice day!
+
+Script done on Tue 07 Feb 2017 02:30:05 PM PST

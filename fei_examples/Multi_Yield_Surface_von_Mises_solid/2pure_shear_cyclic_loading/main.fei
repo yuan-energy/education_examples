@@ -1,0 +1,59 @@
+model name "elastic";
+// Define the material:
+add material # 1 type vonMisesMultipleYieldSurface
+	mass_density = 0.0*kg/m^3 
+	elastic_modulus = 951750 * Pa 
+	poisson_ratio = 0.15 
+	total_number_of_yield_surface = 15 
+	radiuses_of_yield_surface = 
+	"2.7 2.74 2.8 2.82 2.85 2.9 3.0 3.1 3.25 3.5 4.2 5.3 6.5 7.5 10.0 12.65" 
+	radiuses_scale_unit = 100* Pa
+	hardening_parameters_of_yield_surfaces = 
+	"5500 4000 2700 2400 1890 1300 915 600 254 167 79 65.4 23 2.2 1.2"  
+	hardening_parameters_scale_unit = 100* Pa ;
+// define the node:
+add node # 1 at (0*m,0*m,1*m)  with 3 dofs;
+add node # 2 at (1*m,0*m,1*m)  with 3 dofs;
+add node # 3 at (1*m,1*m,1*m)  with 3 dofs;
+add node # 4 at (0*m,1*m,1*m)  with 3 dofs;
+add node # 5 at (0*m,0*m,0*m)  with 3 dofs;
+add node # 6 at (1*m,0*m,0*m)  with 3 dofs;
+add node # 7 at (1*m,1*m,0*m)  with 3 dofs;
+add node # 8 at (0*m,1*m,0*m)  with 3 dofs;
+// Define the element.
+add element # 1 type 8NodeBrick with nodes (1, 2, 3, 4, 5, 6, 7, 8) use material # 1;
+new loading stage "shearing";
+fix node # 1 dofs uy;
+fix node # 2 dofs uy;
+fix node # 3 dofs uy;
+fix node # 4 dofs uy;
+fix node # 5 dofs all;
+fix node # 6 dofs all;
+fix node # 7 dofs all;
+fix node # 8 dofs all;
+mot = 1;
+dt = 1E2*s ; 
+while (mot < 5 ) {
+    add imposed motion # mot to node # mot dof ux 
+        time_step =  dt
+        displacement_scale_unit =  0.07*m 
+        displacement_file =  "path.txt" 
+        velocity_scale_unit =  0*m/s 
+        velocity_file =  "path.txt" 
+        acceleration_scale_unit =  0.0*m/s^2 
+        acceleration_file = "path.txt";
+    mot = mot + 1;
+    };
+define solver ProfileSPD;
+define convergence test Norm_Unbalance
+    tolerance = 5 
+    maximum_iterations =  5
+    verbose_level = 4;
+define algorithm Newton ;
+define dynamic integrator Newmark with 
+    gamma = 0.5 
+    beta = 0.25;
+define NDMaterial constitutive integration algorithm Forward_Euler;
+simulate 499 steps using transient algorithm 
+    time_step = dt;
+bye;  
